@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body {
+    background: linear-gradient(white 20%, #87cefa);
+    color: rgba(0,0,0,1);
+    
+}
+p {
+    text-align: justify;
+    text-indent: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* image */
+
+figure.foto-legenda {
+    position: relative;
+    border: 6px solid red;
+    box-shadow: 1px 1px 4px black;
+    overflow: hidden;
+}
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+    cursor: pointer;
+}
+/* Menu Formatting */
+.menu {
+    display: block;
+}
+.menu h1 {
+    display: none;
+}
+.menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.menu li {
+    display: inline;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    transition: background 1s;
+    border-radius: 1px;
+    cursor: pointer;
+    
+}
+.menu li:hover {
+    background: linear-gradient(white 95%, black);
+}
+.menu a {
+    color: #000000;
+    text-decoration: none;
+}
