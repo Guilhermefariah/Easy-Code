@@ -1,21 +1,52 @@
 @charset "UTF-8";
 
 body {
-    background: linear-gradient(white 20%, #87cefa);
+    background: linear-gradient(white 10%, #87cefa, white);
     color: rgba(0,0,0,1);
+    margin: 0;
+    padding: 0;
     
 }
+/*
 .interface {
     width: 900px;
-    margin: -20px auto 0px auto;
+    margin: -40px auto 0px auto;
     box-shadow: 0px 0px 10px black;
     padding: 10px;
-}
+}*/
 p {
     text-align: justify;
     text-indent: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
+.logo {
+    position: relative;
+    background-color: #0000001a;
+    top: -30px;
+    width: 100%;
+    margin: 0;
+    height: 40px;
+    box-sizing: border-box;
+}
+.logo h1 {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top: -10x;
+    color: rgb(0, 0, 0);
+    font-size:  30pt;
+    
+}
+.logo h2 {
+    position: relative;
+    color: #87cefa;
+    top: -30px;
+    font-size: 15pt;
+    display: inline;
+    border-bottom: 3px #87cefa solid;
+    padding: 3px;
+    
+}
+
 .icone {
     position: relative;
     left: 150px;
@@ -62,8 +93,8 @@ figure.foto-legenda:hover figcaption {
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: 100px;
-    left: 100px;
+    top: 90px;
+    left: 90px;
 }
 .menu li {
     display: inline;
@@ -76,7 +107,7 @@ figure.foto-legenda:hover figcaption {
     
 }
 .menu li:hover {
-    background: linear-gradient(white 95%, black);
+    background: linear-gradient(white 92%, black);
 }
 .menu a {
     color: #000000;
