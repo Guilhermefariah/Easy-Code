@@ -5,10 +5,21 @@ body {
     color: rgba(0,0,0,1);
     
 }
+.interface {
+    width: 900px;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+}
 p {
     text-align: justify;
     text-indent: 50px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.icone {
+    position: relative;
+    left: 150px;
+    top: 50px;
 }
 
 /* image */
