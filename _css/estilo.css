@@ -60,18 +60,18 @@ p {
 
 /* image */
 
-figure.foto-legenda {
+.screenLeg {
     position: relative;
-    border: 6px solid red;
+    border: 1px solid rgb(255, 255, 255);
     box-shadow: 1px 1px 4px black;
     overflow: hidden;
 }
-figure.foto-legenda img{
+.screenLeg img{
     width: 100%;
     height: 100%;
     display: block;
 }
-figure.foto-legenda figcaption {
+.screenLeg figcaption {
     opacity: 0;
     position: absolute;
     top: 0px;
@@ -83,7 +83,7 @@ figure.foto-legenda figcaption {
     box-sizing: border-box;
     transition: opacity 1s;
 }
-figure.foto-legenda:hover figcaption {
+.screenLeg:hover figcaption {
     opacity: 1;
     cursor: pointer;
 }
