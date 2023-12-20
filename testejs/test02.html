@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test JavaScript</title>
     <script>
-        function nikeNews
+        function nikeOne() {
+            document.getElementById('nike').src='/_imagens/2.jpg';
+        }
+        function nikeTwo() {
+            document.getElementById('nike').src='/_imagens/3.jpg';
+        }
+        function nikeThree(){
+            document.getElementById('nike').src='/_imagens/4.jpg'
+        }
     </script>
 </head>
 <body>
     <h1>Nike</h1>
-    <img src="/_imagens/3.jpg" alt="">
+    <img src="/_imagens/3.jpg" alt="" id="nike" onmousemove="nikeOne()"
+    onmouseout="nikeTwo()" onclick="nikeThree()">
 </body>
 </html>
