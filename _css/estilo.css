@@ -1,7 +1,7 @@
 body {
-    background: linear-gradient(white 10%, #87cefa, white);
+    background: linear-gradient(white 10%, #87cefa 40%, white);
     color: rgba(0,0,0,1);
-    font-family:  Helvetica, sans-serif;
+    font-family: Poppins, sans-serif;
     margin: 0;
     padding: 0;
     
@@ -36,13 +36,13 @@ a {
     color: rgb(0, 0, 0);
     font-size:  25pt;
     font-weight: bolder;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, .6);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, .6);
     font-weight: bolder; 
 }
 .logo h2 {
     position: relative;
     color: #000000;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
     top: -20px;
     font-size: 16pt;
     display: inline;
@@ -101,6 +101,7 @@ a {
     font-size: 15pt;
     border: 1px solid rgb(255, 255, 255, 0.582);
     box-shadow: 1px 1px 10px #87cefa;
+    text-shadow: 1px 1px 4px white;
     transform: translateY(-50%);
     cursor: pointer; 
 }
@@ -159,7 +160,7 @@ a {
     text-transform: uppercase;
     position: absolute;
     top: 90px;
-    left: 40px;
+    left: 50px;
 }
 .menu li {
     display: inline;
@@ -171,12 +172,12 @@ a {
     cursor: pointer;  
 }
 .menu li:hover {
-    background: linear-gradient(white 95%, black);
+    background: linear-gradient(white 90%, #000000);
 }
 .menu a {
     color: #000000;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 21px;
     text-shadow: 1px 1px 5px #0000008a;
 }
 .corpo {
