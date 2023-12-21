@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(white 15%, rgba(0, 0, 0, 0.411) 40%, white);
     color: rgba(0,0,0,1);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial Narrow, sans-serif;
     margin: 0;
     padding: 0;
     
@@ -43,6 +43,7 @@ a {
     color: #000000;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
     top: -15px;
+    left: 3px;
     font-size: 16pt;
     display: inline;
     border-bottom: 3px rgb(0, 0, 0) solid;
@@ -156,10 +157,10 @@ a {
 }
 .menu ul {
     list-style: none;
-    text-transform: uppercase;
+    text-transform: none;
     position: absolute;
     top: 90px;
-    left: 50px;
+    left: 70px;
 }
 .menu li {
     display: inline;
@@ -176,7 +177,7 @@ a {
 .menu a {
     color: #000000;
     text-decoration: none;
-    font-size: 21px;
+    font-size: 30px;
     text-shadow: 1px 1px 5px #0000008a;
 }
 .corpo {
@@ -248,7 +249,7 @@ caption span {
     display: block;
     float: right;
     color: yellow;
-    font-size: 8pt;
+    font-size: 12pt;
     margin-top: 20px;
 }
 .lateral {
@@ -280,6 +281,31 @@ caption span {
     color: white;
     padding: 5px; 
 }
+ .stadium h1 {
+     position: absolute;
+     background-color: crimson;
+     text-shadow: 1px 1px 10px rgb(255, 255, 255);
+     border-radius: 5px;
+     color: white;
+     top: 90vh;
+     left: 63vw;
+ }
+ .stadium p {
+     position: absolute;
+     top: 95vh;
+     left: 62vw;
+     font-size: 25pt;
+     text-shadow: 1px 1px 10px rgb(255, 255, 255);
+     font-weight: bold;
+     color: rgb(255, 255, 255);
+ }
+ .stadium img { 
+     margin: 30px;
+     margin-top: 25%;
+     width: 400px; 
+     height: 300px;   
+ }
+
 .rodape {
     border-top: 1px solid #ffffff;
     clear: both;
