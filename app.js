@@ -1,3 +1,3 @@
 function screenNew(screen){
-    document.querySelector(".icone img").src = screen;
+    document.querySelector(".icon img").src = screen;
 }

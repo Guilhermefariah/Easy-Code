@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 body {
     background: linear-gradient(white 10%, #87cefa, white);
     color: rgba(0,0,0,1);
@@ -23,16 +21,13 @@ a {
    color: #ffffff;
    text-decoration: none; 
 }
-a:hover {
-    text-decoration: underline;
-}
 .logo {
     position: relative;
     background: linear-gradient(#87cefa, white);
     top: -30px;
     width: 100%;
     margin: 0;
-    height: 40px;
+    height: 60px;
     box-sizing: border-box;
 }
 .logo h1 {
@@ -42,33 +37,31 @@ a:hover {
     font-size:  25pt;
     font-weight: bolder;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, .6);
-    font-weight: bolder;
-    
+    font-weight: bolder; 
 }
 .logo h2 {
     position: relative;
-    color: #87cefa;
-    text-shadow: 2px 2px 3px rgb(133, 205, 250, 0.6);
+    color: #000000;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     top: -20px;
     font-size: 16pt;
     display: inline;
-    border-bottom: 3px rgb(133, 205, 250) solid;
+    border-bottom: 3px rgb(0, 0, 0) solid;
     padding: 3px; 
-
 }
 
-.icone {
+.icon {
     position: relative;
     left: 200px;
     top: 120px;
     border: 1px solid white;
     box-shadow: 1px 1px 3px black;
     width: 640px;
-    height: 427px;
+    height: 415px;
     border-radius: 5px;
     overflow: hidden;
 }
-.icone figcaption {
+.icon figcaption {
     opacity: 0;
     position: absolute;
     top: 0px;
@@ -80,25 +73,48 @@ a:hover {
     box-sizing: border-box;
     transition: opacity 1s;
 }
-.icone figcaption h1 {
+.icon figcaption h1 {
     font: 20pt sans-serif;
     color: green;
 }
-.icone figcaption h2 {
+.icon figcaption h2 {
     font: 15pt sans-serif;
     color: yellow;
 }
-.icone figcaption h3 {
+.icon figcaption h3 {
     font: 12pt sans-serif;
     color: blue;
 }
-.icone figcaption:hover {
+.icon figcaption:hover {
     opacity: 1;
     cursor: pointer;
 }
-
-/* image */
-
+#buttonOne, #buttonTwo,
+#buttonThree {
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    background: #87cefa;
+    color: white;
+    font-size: 15pt;
+    border: 1px solid rgb(255, 255, 255, 0.582);
+    box-shadow: 1px 1px 10px #87cefa;
+    transform: translateY(-50%);
+    cursor: pointer; 
+}
+#buttonOne {
+    right: 50px;
+}
+#buttonTwo {
+    top: 60%;
+    right: 50px;
+}
+#buttonThree {
+    top: 70%;
+    right: 50px;
+}
 .screenLeg {
     position: relative;
     width: 80%;
@@ -130,9 +146,6 @@ a:hover {
     opacity: 1;
     cursor: pointer;
 }
-#ret {
-  
-}/* aaaaaaa*/
 
 /* Menu Formatting */
 .menu {
@@ -164,7 +177,7 @@ a:hover {
     color: #000000;
     text-decoration: none;
     font-size: 20px;
-    text-shadow: 1px 1px 4px #00446e41;
+    text-shadow: 1px 1px 5px #0000008a;
 }
 .corpo {
     display: block;
@@ -190,13 +203,11 @@ a:hover {
     color: #000000;
     margin-bottom: 0px;
     margin-top: 0px;
-
 }
 .cabecalho-artigo h2 {
     font-size: 15pt;
     color: #ffffff;
     background: #ffffff3a;
-
 }
 .cabecalho-artigo h3 {
     font-size: 20px;
@@ -224,11 +235,9 @@ a:hover {
     background-color: #4400ff96;
     vertical-align: top;
     font-weight: bold;
-
 }
 .tablespec .right {
-    background-color: crimson;
-    
+    background-color: crimson;  
 }
 caption {
     color: #000;
@@ -261,9 +270,6 @@ caption span {
     text-shadow: 1px 1px 4px rgb(255, 255, 255);
     background-color: crimson;
     border-radius: 5px;
-    
-    
-
 }
 .lateral h2 {
     background-color: #4400ff96;
@@ -272,16 +278,13 @@ caption span {
     text-align: center;
     text-shadow: 1px 1px 4px white;
     color: white;
-    padding: 5px;
-    
+    padding: 5px; 
 }
-
 .rodape {
     border-top: 1px solid #ffffff;
     clear: both;
     background-color: #000000;
-    border-radius: 2px;
-    
+    border-radius: 2px;    
 }
 .rodape p {
     text-align: center;
