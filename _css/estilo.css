@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background: linear-gradient(rgb(255, 255, 255) 10%, #87cefa, rgb(255, 255, 255));
+    background: linear-gradient(white 10%, #87cefa, white);
     color: rgba(0,0,0,1);
     font-family:  Helvetica, sans-serif;
     margin: 0;
