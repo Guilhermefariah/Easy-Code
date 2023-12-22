@@ -222,6 +222,7 @@ a {
 .tablespec {
     border: 1px solid #ffffff;
     border-spacing: 0px;
+    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -275,7 +276,7 @@ caption span {
 .lateral h2 {
     background-color: #4400ff96;
     border-radius: 5px;
-    font-size: 15pt;
+    font-size: 20pt;
     text-align: center;
     text-shadow: 1px 1px 4px white;
     color: white;
@@ -284,26 +285,34 @@ caption span {
  .stadium h1 {
      position: absolute;
      background-color: crimson;
-     text-shadow: 1px 1px 10px rgb(255, 255, 255);
+     text-shadow: 1px 1px 4px rgb(255, 255, 255);
      border-radius: 5px;
      color: white;
-     top: 90vh;
-     left: 63vw;
+     top: 165vh;
+     left: 64vw;
  }
  .stadium p {
-     position: absolute;
-     top: 95vh;
-     left: 62vw;
-     font-size: 25pt;
-     text-shadow: 1px 1px 10px rgb(255, 255, 255);
-     font-weight: bold;
-     color: rgb(255, 255, 255);
+    position: absolute;
+    top: 172vh;
+    left: 54vw;
+    width: 42%;
+    font-size: 17pt;
+    background: rgba(255, 255, 255, 0.486);
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    text-align: center;
+    
  }
+ 
  .stadium img { 
-     margin: 30px;
-     margin-top: 25%;
-     width: 400px; 
-     height: 300px;   
+    margin: 30px;
+    margin-top: 35%;
+    width: 400px; 
+    height: 300px;   
+    border:  1px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 4px rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;;
  }
 
 .rodape {
