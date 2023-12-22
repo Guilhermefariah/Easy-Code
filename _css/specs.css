@@ -1,0 +1,13 @@
+section#conteudo {
+    width: 1000px;
+    margin: auto;
+}
+iframe#frame-spec {
+    width: 350px;
+    height: 280px;
+    border: none;
+    overflow: hidden;
+}
+::-webkit-scrollbar {
+    display: none;
+}
