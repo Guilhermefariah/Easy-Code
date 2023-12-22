@@ -1,13 +1,36 @@
-section#conteudo {
+.cabecalho-artigo{
+    position: relative;
+    top: 12vw;
+    margin: 10px;
+    text-align: center;
+}
+.conteudo {
     width: 1000px;
     margin: auto;
 }
+.conteudo img {
+    position: relative;
+    top: 15vw;
+    left: 10vw;
+    background: linear-gradient(white, #87cefa, white);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.658);
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px;
+    
+}
 iframe#frame-spec {
+    position: relative;
+    top: 5vb;
     width: 350px;
-    height: 280px;
+    height: 480px;
+    left: 40vh;
     border: none;
     overflow: hidden;
 }
 ::-webkit-scrollbar {
     display: none;
 }
+
+
