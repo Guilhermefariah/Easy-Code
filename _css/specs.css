@@ -12,7 +12,7 @@
     position: relative;
     top: 15vw;
     left: 10vw;
-    background: linear-gradient(white, #87cefa, white);
+    background: linear-gradient(white, rgba(0, 0, 0, 0.349), white);
     border: 1px solid rgb(255, 255, 255);
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.658);
     border-radius: 5px;
