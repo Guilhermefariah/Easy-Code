@@ -21,6 +21,7 @@
     background-color: aliceblue;
     box-shadow: 1px 1px 3px rgba(0,0,0,.4);
     -webkit-transition: all .4s ease-in;
+    cursor: pointer;
 }
 .album li span {
     opacity: 0;
@@ -79,7 +80,7 @@
     background-size: 200px 200px;
 }
 .album li#photo05 {
-    background: url(/_image/6.jpg);
+    background: url(/_image/8.jpg);
     background-position: 50% 50%;
     background-size: 640px 427px;
     background-color: white;
@@ -89,7 +90,7 @@
     background-size: 200px 200px;
 }
 .album li#photo06 {
-    background: url(/_image/8.jpg);
+    background: url(/_image/10.jpg);
     background-position: 50% 50%;
     background-size: 640px 427px;
     background-color: white; 
