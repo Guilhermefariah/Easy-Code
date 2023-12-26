@@ -1,0 +1,27 @@
+.media{
+    width: 800px;
+    height: 580px;
+    margin: 250px 100px;
+    background: linear-gradient(white, #87cefa, white);
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px white;
+}
+.cabecalho-artigo {
+    position: relative;
+    top: 200px;
+    margin: auto 300px;
+    text-align: center;
+}
+audio#music {
+    display: block;
+    position: relative;
+    left: 250px;
+    top: 480px;
+    width: 300px;
+}
+video#film {
+    display: block;
+    position: relative;
+    left: 80px;
+    top: 40px;
+}
