@@ -11,15 +11,21 @@
 }
 .conteudo img {
     position: relative;
-    top: 15vw;
+    top: 13vw;
     left: 10vw;
     background: linear-gradient(white, rgba(0, 0, 0, 0.349), white);
     border: 1px solid rgb(255, 255, 255);
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.658);
-    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.658);
+    border-radius: 2px;
     width: 300px;
     padding: 10px;
-    
+}
+#focus {
+    filter: url(#custom);
+    margin: -10px;
+}
+svg{
+    position: absolute;
 }
 iframe#frame-spec {
     position: relative;

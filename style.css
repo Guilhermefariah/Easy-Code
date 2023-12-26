@@ -18,7 +18,7 @@ p {
     text-indent: 50px;
 }
 a {
-   color: #ffffff;
+   color: red;
    text-decoration: none; 
 }
 .logo {
@@ -93,28 +93,27 @@ a {
 #buttonThree {
     position: absolute;
     top: 50%;
-    width: 100px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50px;
     background: #0000007c;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 15pt;
-    border: 1px solid rgb(255, 255, 255, 0.582);
+    border: 1px solid rgb(255, 255, 255);
     box-shadow: 1px 1px 10px #000000;
     text-shadow: 1px 1px 4px white;
-    transform: translateY(-50%);
     cursor: pointer; 
 }
 #buttonOne {
-    right: 50px;
+    right: 80px;
 }
 #buttonTwo {
     top: 60%;
-    right: 50px;
+    right: 80px;
 }
 #buttonThree {
     top: 70%;
-    right: 50px;
+    right: 80px;
 }
 .screenLeg {
     position: relative;
