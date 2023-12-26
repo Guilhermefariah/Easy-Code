@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike - Exclusive Productions and Collections</title>
     <link rel="shortcut icon" href="/_image/nike.ico" type="image/x-icon">
@@ -28,21 +29,33 @@
                 </ul>
             </nav> 
         </header>
-        
-        <div class ="icon" class="arows" onmouseout="screenNew('/_image/2.jpg')">
-            <div class="list">
-                <img src="/_image/8.jpg">
-            </div>             
-                <figcaption >
-                    <h1>NikeSNKS</h1>
-                    <h2>NikeSB</h2>
-                    <h3>Guideveloper</h3>
-                    <p>Atualizado em 2023</p>
-                </figcaption>
-            
-        </div>    
-          
-        <section id="corpo-full">
+        <div class ="icon">
+            <svg>
+                <filter id="custom">
+                    <feTurbulence
+                        type="turbulence"
+                        baseFrequency="0.01.0.003">
+                        <animate
+                            attributeName="baseFrequency"
+                            from="0.01 0.003"
+                            to="0.01 0+005"
+                            dur="3.6s"
+                            repeatCount="indefinite">
+                        </animate>
+                    </feTurbulence>
+                    <feDisplacementmap
+                    in="SourceGraphic" scale="20"/>
+                </filter>   
+            </svg> 
+            <img id=focus src="/_image/11.jpg" alt="">                
+                    <figcaption >
+                        <h1>NikeSNKS</h1>
+                        <h2>NikeSB</h2>
+                        <h3>Guideveloper</h3>
+                        <p>Atualizado em 2023</p>
+                    </figcaption>
+            </div> 
+        <div id="corpo-full">
            <article class="topNews">
             <section class="cabecalho-artigo">
                 <hgroup>
@@ -54,19 +67,19 @@
             </section>
            </article>
 
-        </section>
+        </div>
         
         
 
-        <section class="conteudo">
+        <div class="conteudo">
             
-            <img src="/_image/7.png" alt="" usemap="#mymap">
+            <img src="/_image/7.png" alt="#" usemap="#mymap">
             <map name="#mymap">
-                <area shape="default" coords="" href="/_media/iframenike.html#tela" alt=""
+                <area shape="default" coords="#" href="/_media/iframenike.html#tela" alt=""
                 target="janela">
             </map>
             <iframe src="/_media/iframenike.html" name="janela" id="frame-spec" frameborder="0" ></iframe>
-        </section>
+        </div>
           
         
         <aside class="lateral">

@@ -160,7 +160,7 @@ a {
     text-transform: none;
     position: absolute;
     top: 90px;
-    left: 70px;
+    left: 60px;
 }
 .menu li {
     display: inline;
@@ -315,13 +315,13 @@ caption span {
     cursor: pointer;;
  }
 
-.rodape {
+footer {
     border-top: 1px solid #ffffff;
     clear: both;
     background-color: #000000;
     border-radius: 2px;    
 }
-.rodape p {
+footer p {
     text-align: center;
     color: white;
 }
