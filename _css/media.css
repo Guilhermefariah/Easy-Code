@@ -1,14 +1,14 @@
 .media{
     width: 800px;
     height: 580px;
-    margin: 250px 100px;
+    margin: 180px 100px;
     background: linear-gradient(white, #87cefa, white);
     border-radius: 5px;
     box-shadow: 1px 1px 4px white;
 }
 .cabecalho-artigo {
     position: relative;
-    top: 200px;
+    top: 140px;
     margin: auto 300px;
     text-align: center;
 }
