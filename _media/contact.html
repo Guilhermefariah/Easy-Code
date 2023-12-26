@@ -74,12 +74,16 @@
                     <p><label for="cRef">Reference:</label> <input type="text" name="tRef" id="cRef" size="14" maxlength="80" placeholder="Rua, Av, Bairro etc.. "></p>
                     <p><label for="cNum">Number: </label> <input type="number" name="tNum" id="cNum"  min="0" max="9999" placeholder="Number..."></p>
                     <p><label for="cStat">State:</label> <select  name="tStat" id="cStat">
-                        <option>São Paulo</option>
-                        <option>Rio de Janeiro</option>
-                        <option>Minas Gerais</option>
-                        <option>Paraná</option>
-                        <option>Santa Catarina</option>
-                        <option>Rio Grande do Sul</option>
+                        <optgroup label="Southeast Region">
+                            <option value="SP" selected>São Paulo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="MG">Minas Gerais</option>
+                        </optgroup>
+                        <optgroup label="South Region">
+                            <option value="PR">Paraná</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                        </optgroup>
                     </select></p>
                     <p><label for="cCit">City:</label> <input type="text" name="tCit" id="cCit" size="14" maxlength="80" minlength="1" placeholder="City..."></p>
             </fieldset>
