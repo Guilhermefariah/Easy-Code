@@ -51,8 +51,9 @@
                     </hgroup>
                 </section>
             </article>    
-        </div>    
-        <form>
+        </div>
+            
+        <form method="post" id="fcontact" action="mailto:contact@gmail.com">
             <fieldset id="user">
                 <legend>User Identification</legend>
                     <p><label for="cName">Name: </label> <input type="text" name="tName" id="cName" size="14" maxlength="30"  placeholder="Full Name..."></p>
@@ -72,7 +73,14 @@
                 <legend>User Address</legend>
                     <p><label for="cRef">Reference:</label> <input type="text" name="tRef" id="cRef" size="14" maxlength="80" placeholder="Rua, Av, Bairro etc.. "></p>
                     <p><label for="cNum">Number: </label> <input type="number" name="tNum" id="cNum"  min="0" max="9999" placeholder="Number..."></p>
-                    <p><label for="cStat">State:</label> <input type="text" name="tStat" id="cStat" size="14" maxlength="80" minlength="1" placeholder="State..."></p>
+                    <p><label for="cStat">State:</label> <select  name="tStat" id="cStat">
+                        <option>São Paulo</option>
+                        <option>Rio de Janeiro</option>
+                        <option>Minas Gerais</option>
+                        <option>Paraná</option>
+                        <option>Santa Catarina</option>
+                        <option>Rio Grande do Sul</option>
+                    </select></p>
                     <p><label for="cCit">City:</label> <input type="text" name="tCit" id="cCit" size="14" maxlength="80" minlength="1" placeholder="City..."></p>
             </fieldset>
         
