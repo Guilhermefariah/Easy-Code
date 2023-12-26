@@ -29,7 +29,7 @@
             </nav> 
         </header>
 
-        <div class ="icon" class="arows" onmouseout="screenNew()">
+        <div class ="icon" onmouseout="screenNew()">
                 <img src="/_image/12.jpg">
                        
                 <figcaption >
@@ -55,9 +55,9 @@
         <form>
             <fieldset id="user">
                 <legend>User Identification</legend>
-                    <p><label for="cName">Name: &nbsp; &nbsp; &nbsp;</label> <input type="text" name="tName" id="cName" size="14" maxlength="30"  placeholder="Full Name..."></p>
+                    <p><label for="cName">Name: </label> <input type="text" name="tName" id="cName" size="14" maxlength="30"  placeholder="Full Name..."></p>
                     <p><label for="cPass">Password:</label> <input type="password" name="tPass" id="cPass" size="14" maxlength="20" minlength="8" placeholder="Password..."></p>
-                    <p><label for="cMail">E-mail: &nbsp; &nbsp; &nbsp;</label><input type="email" name="tMail" id="cMail" size="14" maxlength="30" placeholder="E-mail..."></p>
+                    <p><label for="cMail">E-mail: </label><input type="email" name="tMail" id="cMail" size="14" maxlength="30" placeholder="E-mail..."></p>
                     <fieldset>
                     <legend>Sex:</legend>
                         <input type="radio" name="tSex" id="cMasc" checked> <label for="cMasc">Masculine</label><br>
@@ -71,22 +71,22 @@
             <fieldset id="address">
                 <legend>User Address</legend>
                     <p><label for="cRef">Reference:</label> <input type="text" name="tRef" id="cRef" size="14" maxlength="80" placeholder="Rua, Av, Bairro etc.. "></p>
-                    <p><label for="cNum">Number: &nbsp; &nbsp;</label> <input type="number" name="tNum" id="cNum"  min="0" max="9999" placeholder="Number..."></p>
-                    <p><label for="cStat">State: &nbsp; &nbsp; &nbsp; &nbsp;</label> <input type="text" name="tStat" id="cStat" size="14" maxlength="80" minlength="1" placeholder="State..."></p>
-                    <p><label for="cCit">City: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label> <input type="text" name="tCit" id="cCit" size="14" maxlength="80" minlength="1" placeholder="City..."></p>
+                    <p><label for="cNum">Number: </label> <input type="number" name="tNum" id="cNum"  min="0" max="9999" placeholder="Number..."></p>
+                    <p><label for="cStat">State:</label> <input type="text" name="tStat" id="cStat" size="14" maxlength="80" minlength="1" placeholder="State..."></p>
+                    <p><label for="cCit">City:</label> <input type="text" name="tCit" id="cCit" size="14" maxlength="80" minlength="1" placeholder="City..."></p>
             </fieldset>
         
             <fieldset id="msg">
                 <legend>User Message</legend>
-                    Degree of Urgency:
-                    Message:
+                    <p><label for="cUrg">Degree of Urgency: </label><input type="text" name="tUrg" id="cUrg" size="14" maxlength="80" minlength="1" placeholder="Urgency..."></p>
+                    <p><label for="cMsg">Message: </label><input type="text" name="tMsg" id="cMsg" size="14" maxlength="30" minlength="1" placeholder="Mensagem..."></p>
             </fieldset>
             <fieldset id="request">
-                <legend>Quero Um Conjunto Nike</legend>
-                    Gostaria de adquirir um Conjunto Nike assim que disponivel
-                    Cor:
-                    Quantidade:
-                    Preço total: R$ 
+                <legend>I want a Nike set</legend>
+                <p>I would like to purchase a Nike set as soon as it becomes available</p>
+                    <p><label for="cColor">Color: </label> <input type="text" size="14" name="tColor" id="cColor" maxlength="30" minlength="1" placeholder="Color..."></p>
+                    <p><label for="cAmount">Amount: </label><input type="number" name="tAmount" id="cAmount" min="0" max="9999" placeholder="Amount..."></p>
+                    <p><label for="cPrice">Total price: R$</label> <input type="number" name="tPrice" id="cPrice" min="0" max="99999999999" placeholder="Total Price..."></p>
             </fieldset>
 
             [Botão Enviar]
