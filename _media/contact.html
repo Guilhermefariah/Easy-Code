@@ -85,13 +85,20 @@
                             <option value="RS">Rio Grande do Sul</option>
                         </optgroup>
                     </select></p>
-                    <p><label for="cCit">City:</label> <datalist type="text" name="tCit" id="cCit" size="14" maxlength="40" minlength="1" placeholder="City..."></datalist></p>
-            </fieldset>
+                    <p><label for="cCit">City:</label> <input type="text" name="tCit" id="cCit" size="14" maxlength="40" minlength="1" placeholder="City..." list="city"></input></p>
+                    <datalist id="city">
+                        <option value="Rio de Janeiro"></option>
+                        <option value="Nova Iguaçu"></option>
+                        <option value="Niterói"></option>
+                        <option value="Belford Roxo"></option>
+
+                    </datalist>
+                </fieldset>
         
             <fieldset id="msg">
                 <legend>User Message</legend>
-                    <p><label for="cUrg">Degree of Urgency: </label><input type="text" name="tUrg" id="cUrg" size="14" maxlength="80" minlength="1" placeholder="Urgency..."></p>
-                    <p><label for="cMsg">Message: </label><input type="text" name="tMsg" id="cMsg" size="14" maxlength="30" minlength="1" placeholder="Mensagem..."></p>
+                    <p><label for="cUrg">Degree of Urgency: </label> Min<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="2">Max</p>
+                    <p><label for="cMsg">Message: </label><textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Type your message..."></textarea></p>
             </fieldset>
             <fieldset id="request">
                 <legend>I want a Nike set</legend>
