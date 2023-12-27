@@ -4,7 +4,6 @@ body {
     font-family: Arial Narrow, sans-serif;
     margin: 0;
     padding: 0;
-    
 }
 /*
 .interface {
@@ -18,13 +17,13 @@ p {
     text-indent: 50px;
 }
 a {
-   color: red;
+   color: rgb(255, 255, 255);
    text-decoration: none; 
 }
 .logo {
     position: relative;
     background: black;
-    top: -25px;
+    top: -27px;
     width: 100%;
     margin: 0;
     height: 40px;
@@ -32,9 +31,9 @@ a {
 }
 .logo h1 {
     position: relative;
-    top: 5px;
+    top: 0px;
     color: rgb(255, 255, 255);
-    font-size:  25pt;
+    font-size: 30pt;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, .6);
     font-weight: bolder; 
 }
@@ -42,14 +41,62 @@ a {
     position: relative;
     color: #000000;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
-    top: -15px;
-    left: 3px;
-    font-size: 16pt;
+    top: -30px;
+    left: 5px;
+    font-size: 20pt;
     display: inline;
     border-bottom: 3px rgb(0, 0, 0) solid;
     padding: 3px; 
 }
-
+.social {
+    position: absolute;
+    top: 10px;
+    left: 74%;
+    letter-spacing: 2px;
+    font-size: 11pt;
+    font-family: sans-serif; 
+}
+#cAsk {
+    position: absolute;
+    left: 85%;
+    top: 105px;
+    width: 100px;
+    height: 25px;
+    border-radius: 50px;
+    background: url(/_image/search.svg) no-repeat 1%;
+    text-align: center;
+}
+.menu {
+    display: block;
+}
+.menu h1 {
+    display: none;
+}
+.menu ul {
+    list-style: none;
+    text-transform: none;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+.menu li {
+    display: inline;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    transition: background 1s;
+    border-radius: 1px;
+    cursor: pointer;  
+}
+.menu li:hover {
+    background: linear-gradient(white 90%, #000000);
+}
+.menu a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20pt;
+    font-family: sans-serif;
+}
 .icon {
     position: relative;
     left: 200px;
@@ -146,39 +193,6 @@ a {
     opacity: 1;
     cursor: pointer;
 }
-
-/* Menu Formatting */
-.menu {
-    display: block;
-}
-.menu h1 {
-    display: none;
-}
-.menu ul {
-    list-style: none;
-    text-transform: none;
-    position: absolute;
-    top: 90px;
-    left: 60px;
-}
-.menu li {
-    display: inline;
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    margin: 20px;
-    transition: background 1s;
-    border-radius: 1px;
-    cursor: pointer;  
-}
-.menu li:hover {
-    background: linear-gradient(white 90%, #000000);
-}
-.menu a {
-    color: #000000;
-    text-decoration: none;
-    font-size: 30px;
-    text-shadow: 1px 1px 5px #ffffff;
-}
 .corpo {
     display: block;
     width: 500px;
@@ -186,16 +200,7 @@ a {
     border-right: 1px solid #ffffff7a; /* center */
     padding-right: 15px;
     margin-top: 20%;
-    margin-left: 10px;
-   
-}
-.topNews h2 {
-    font-size: 15pt;
-    color: #ff0000;
-    background: #ffffff2d;
-    border-radius: 5px;
-    padding: 5px 0px 5px 0px;
-    margin: 10px 0px 10px 0px;
+    margin-left: 10px; 
 }
 .cabecalho-artigo h1 {
     font-size: 25pt;
@@ -221,9 +226,7 @@ a {
 .tablespec {
     border: 1px solid #ffffff;
     border-spacing: 0px;
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 100px auto;
 }
 .tablespec td{
     border: 1px solid rgb(255, 255, 255);
