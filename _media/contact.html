@@ -53,7 +53,8 @@
             </article>    
         </div>
             
-        <form method="post" id="fcontact" action="mailto:contact@gmail.com">
+        <form method="post" id="fcontact" action="mailto:contact@gmail.com" oninput="calc_total();">
+
             <fieldset id="user">
                 <legend>User Identification</legend>
                     <p><label for="cName">Name: </label> <input type="text" name="tName" id="cName" size="14" maxlength="30"  placeholder="Full Name..."></p>
@@ -91,7 +92,6 @@
                         <option value="Nova Iguaçu"></option>
                         <option value="Niterói"></option>
                         <option value="Belford Roxo"></option>
-
                     </datalist>
                 </fieldset>
         
@@ -100,15 +100,17 @@
                     <p><label for="cUrg">Degree of Urgency: </label> Min<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="2">Max</p>
                     <p><label for="cMsg">Message: </label><textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Type your message..."></textarea></p>
             </fieldset>
+
             <fieldset id="request">
                 <legend>I want a Nike set</legend>
                 <p><label for="cNike">I would like to purchase a Nike set as soon as it becomes available</label><input type="checkbox" name="tNike" id="cNike" checked></p>
                     <p><label for="cColor">Color: </label> <input type="color" name="tColor" id="cColor" value="#87cefa"></p>
-                    <p><label for="cAmount">Amount: </label><input type="number" name="tAmount" id="cAmount" min="0" max="9999" placeholder="Amount..."></p>
-                    <p><label for="cPrice">Total price: R$</label> <input type="number" name="tPrice" id="cPrice" min="0" max="99999999999" placeholder="Total Price..."></p>
+                    <p><label for="cAmount">Amount: </label><input type="number" name="tAmount" id="cAmount" min="0" max="5" value="0" placeholder="Amount..."></p>
+                    <p><label for="cPrice">Total price: R$</label> <input type="text" name="tPrice" id="cPrice" readonly placeholder="Total Price..."></p>
             </fieldset>
 
-            [Botão Enviar]
+            <input type="submit" value="Enviar">
+            <!--<input type="image" src="/_inteface/enviar.png" name="tEnviar" id="cEnviar">-->
             
                  
         </form>
@@ -119,7 +121,8 @@
             <a href="#" target="_blank">Linkedin</a>
         </footer>    
         
-    </div>    
+    </div> 
+    <script src="amountprice.js"></script>  
     <script src="app.js"></script>  
 </body>
 </html>
