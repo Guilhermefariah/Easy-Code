@@ -259,21 +259,21 @@ caption span {
     background-color: rgba(255, 255, 255, 0.322);
     border-radius: 5px;
     padding: 10px;
-    margin-top: 22%;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
-    margin-right: 40px;
+    margin: 200px 40px 30px 30px;
+    
 }
 .lateral h1 {
     font-size: 20pt;
     color: rgb(255, 255, 255);
-    margin-top: 0px;
+    margin-top: 10px;
     text-align: center;
     text-shadow: 1px 1px 4px rgb(255, 255, 255);
-    background-color: crimson;
+    background-color: rgb(0, 0, 0);
     border-radius: 5px;
 }
 .lateral h2 {
-    background-color: #4400ff96;
+    background-color: crimson;
     border-radius: 5px;
     font-size: 20pt;
     text-align: center;
@@ -281,39 +281,28 @@ caption span {
     color: white;
     padding: 5px; 
 }
- .stadium h1 {
-     position: absolute;
-     background-color: crimson;
-     text-shadow: 1px 1px 4px rgb(255, 255, 255);
-     border-radius: 5px;
-     color: white;
-     top: 165vh;
-     left: 64vw;
- }
- .stadium p {
-    position: absolute;
-    top: 172vh;
-    left: 54vw;
-    width: 42%;
-    font-size: 17pt;
-    background: rgba(255, 255, 255, 0.322);
-    color: rgb(0, 0, 0);
-    letter-spacing: 2px;
+video#filmOne{
+    width: 400px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+.stadium h1 {
+    color: white;
     text-align: center;
-    
+    text-shadow: 1px 1px 4px white;
+    font-size: 30pt;
+}
+.stadium p {
+    text-align: center;
+    font-size: 15pt;
  }
- 
- .stadium img { 
-    margin: 38px;
-    margin-top: 37%;
-    width: 400px; 
-    height: 300px;   
-    border:  1px solid rgb(255, 255, 255);
-    box-shadow: 1px 1px 4px rgb(0, 0, 0);
+ .stadiumimg{
+    width: 400px;
+    margin: 10px 45px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px black;
     border-radius: 5px;
-    cursor: pointer;;
  }
-
 footer {
     border-top: 1px solid #ffffff;
     clear: both;
