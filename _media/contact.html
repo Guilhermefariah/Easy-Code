@@ -14,11 +14,9 @@
         <header>
             <div class="logo">             
                 <h1><span class="material-symbols-outlined">verified_user</span>Nike</h1>
-                <h2>NIKE NEWS</h2>   
-            </div>   
-
+                <h2>Nike News</h2>         
+            </div>             
             <nav class="menu">
-                <h1>Menu principal</h1>
                 <ul>
                     <li><a href="/index.html">Home</a></li>
                     <li><a href="/_media/nikeworld.html">Nike World</a></li>
@@ -27,11 +25,21 @@
                     <li><a href="/_media/contact.html">Contact</a></li>
                 </ul>
             </nav> 
+            <section class="social">
+                <a href="">Nike |</a>
+                <a href="">Join Us |</a>
+                <a href="">Help |</a>
+                <a href="">Enter</a>
+            </section>
+            <div id="ask">
+                <label for="cAsk"></label>
+                <input type="text" name="tAsk" id="cAsk" autocomplete="email"
+                 maxlength="80" size="15" placeholder="Search...">
+            </div>
         </header>
 
         <div class ="icon" onmouseout="screenNew()">
-                <img src="/_inteface/email.jpg">
-                       
+                <img src="/_inteface/email.jpg">                   
                 <figcaption >
                     <h1>NikeSNKS</h1>
                     <h2>NikeSB</h2>
@@ -41,15 +49,13 @@
         </div> 
              
         <div class="corpo-full">
-            <article class="topNews">
                 <section class="cabecalho-artigo">
                     <hgroup>
                         <h3> NIKE NEWS</h3>
                         <h1>Formulary Nike News</h1>
                         <h3>Guideveloper in 2024</h3>                   
                     </hgroup>
-                </section>
-            </article>    
+                </section>   
         </div>
             
         <form method="post" id="fcontact" action="mailto:contact@gmail.com" oninput="calc_total();">
@@ -107,16 +113,13 @@
                     <p><label for="cAmount">Amount: </label><input type="number" name="tAmount" id="cAmount" min="0" max="5" value="0" placeholder="Amount..."></p>
                     <p><label for="cPrice">Total price: R$</label> <input type="text" name="tPrice" id="cPrice" readonly placeholder="Total Price..."></p>
             </fieldset>
-
             <input type="submit" value="Enviar" name="tEnviar" id="cEnviar">               
         </form>
-
         <footer class="rodape">
             <p>Copyright &copy; 2024 - by Guideveloper</p> 
             <a href="#" target="_blank">GitHub</a>
             <a href="#" target="_blank">Linkedin</a>
-        </footer>    
-        
+          </footer>          
     </div> 
     <script src="amountprice.js"></script>  
     <script src="app.js"></script>  
