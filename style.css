@@ -199,15 +199,13 @@ a {
     float: left;
     border-right: 1px solid #ffffff7a; /* center */
     padding-right: 15px;
-    margin-top: 20%;
-    margin-left: 10px; 
+    margin: 200px 0px 20px 10px; 
 }
 .cabecalho-artigo h1 {
     font-size: 25pt;
     text-shadow: 1px 1px 2px  rgb(255, 255, 255);
     color: #ffffff;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    margin: 0;
 }
 .cabecalho-artigo h2 {
     font-size: 15pt;
