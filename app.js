@@ -6,10 +6,10 @@ function resetOpacity() {
     }, 100);
 }
 function screenNew(screen){
-    document.querySelector(".icon img").src = screen;
+    document.querySelector(".container img").src = screen;
 }
 function load(){
-let imageLoad = document.querySelector(".icon")
+let imageLoad = document.querySelector(".container")
 let date = new Date()
 let hours = date.getHours()
 
