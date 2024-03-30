@@ -30,11 +30,8 @@ a {
     font-weight: bolder; 
 }
 .container {
-    position: absolute;
-    top: 10px;
-    left: 74%;
-    letter-spacing: 2px;
-    font-size: 11pt;
+    position: fixed;
+    font-size: 10pt;
     font-family: sans-serif; 
 }
 #ask {
