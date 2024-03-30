@@ -157,8 +157,8 @@ a {
 }
 .screenLeg {
     position: relative;
-    width: 80%;
-    height: 80%;
+    width: 30vw;
+    height: 80vh;
     border: 1px solid rgb(255, 255, 255);
     box-shadow: 1px 1px 3px black;
     overflow: hidden;
@@ -190,7 +190,7 @@ a {
     display: block;
     width: 500px;
     float: left;
-    border-right: 1px solid #ffffff7a; /* center */
+    border-right: 1px solid #ffffff7a;
     padding-right: 15px;
     margin: 200px 0px 20px 10px; 
 }
@@ -204,15 +204,6 @@ a {
     font-size: 15pt;
     color: #ffffff;
     background: #ffffff3a;
-}
-.cabecalho-artigo h3 {
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-}
-.cabecalho-artigo .direita {
-    font-size: 10pt;
-    text-align: right;
-    color: rgb(0, 0, 0);
 }
 .tablespec {
     border: 1px solid #ffffff;
