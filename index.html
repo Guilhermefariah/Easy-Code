@@ -36,9 +36,9 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control border-light rounded-5 me-2" type="search" placeholder="Pesquisar..."
+                        <input class="form-control border-light rounded-5 me-2" type="search" placeholder="Search..."
                             aria-label="Search">
-                        <button class="btn btn-outline-light rounded-4" type="submit">Pesquisar</button>
+                        <button class="btn btn-outline-light rounded-4" type="submit">Search..</button>
                     </form>
                 </div>
             </div>
@@ -79,11 +79,15 @@
                 </div>
             </div>
         </div>
-        <div>
-            <button id="buttonOne" onclick="screenNew('/_image/2.jpg')">></button>
-            <button id="buttonTwo" onclick="screenNew('/_image/3.jpg')">></button>
-            <button id="buttonThree" onclick="screenNew('/_image/4.jpg')">></button>
-        </div>
+        <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center mt-2">
+              <li class="page-item" onclick="screenNew('/_image/6.jpg')"><a class="page-link bg-dark link-light" href="#">Previous</a></li>
+              <li class="page-item" onclick="screenNew('/_image/2.jpg')"><a class="page-link bg-dark link-light" href="#">1</a></li>
+              <li class="page-item" onclick="screenNew('/_image/3.jpg')"><a class="page-link bg-dark link-light" href="#">2</a></li>
+              <li class="page-item" onclick="screenNew('/_image/4.jpg')"><a class="page-link bg-dark link-light" href="#">3</a></li>
+              <li class="page-item" onclick="screenNew('/_image/1.jpg')"><a class="page-link bg-dark link-light" href="#">Next</a></li>
+            </ul>
+          </nav>
         <div class="corpo">
             <section class="cabecalho-artigo">
                 <hgroup>
