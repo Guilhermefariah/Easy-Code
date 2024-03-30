@@ -13,37 +13,6 @@ a {
    color: rgb(255, 255, 255);
    text-decoration: none; 
 }
-.logo {
-    position: fixed;
-    background: black;
-    top: 0px;
-    width: 100%;
-    margin: 0;
-    height: 40px;
-    box-sizing: border-box;
-}
-.logo h1 {
-    top: 30px;
-    color: rgb(255, 255, 255);
-    font-size: 30pt;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, .6);
-    font-weight: bolder; 
-}
-.container {
-    position: fixed;
-    font-size: 10pt;
-    font-family: sans-serif; 
-}
-#ask {
-    position: absolute;
-    left: 85%;
-    top: 105px;
-    width: 100px;
-    height: 25px;
-    border-radius: 50px;
-    background: url(/_image/search.svg) no-repeat 1%;
-    text-align: center;
-}
 .menu {
     display: block;
 }
