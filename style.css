@@ -14,34 +14,22 @@ a {
    text-decoration: none; 
 }
 .logo {
-    position: relative;
+    position: fixed;
     background: black;
-    top: -27px;
+    top: 0px;
     width: 100%;
     margin: 0;
     height: 40px;
     box-sizing: border-box;
 }
 .logo h1 {
-    position: relative;
-    top: 0px;
+    top: 30px;
     color: rgb(255, 255, 255);
     font-size: 30pt;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, .6);
     font-weight: bolder; 
 }
-.logo h2 {
-    position: relative;
-    color: #000000;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
-    top: -30px;
-    left: 5px;
-    font-size: 20pt;
-    display: inline;
-    border-bottom: 3px rgb(0, 0, 0) solid;
-    padding: 3px; 
-}
-.social {
+.container {
     position: absolute;
     top: 10px;
     left: 74%;
@@ -49,7 +37,7 @@ a {
     font-size: 11pt;
     font-family: sans-serif; 
 }
-#cAsk {
+#ask {
     position: absolute;
     left: 85%;
     top: 105px;
