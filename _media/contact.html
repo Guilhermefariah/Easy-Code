@@ -99,9 +99,9 @@
                             <label for="email">Endereço de Email</label>
                             <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
                                 placeholder="Seu email" required>
-                            <small id="email" class="form-text text-muted">Email sera deletado após envio</small>
+                            <small id="emailHelp" class="form-text text-muted">Email sera deletado após envio</small>
                         </div>
-                        <div class="form-grounp mt-2">
+                        <div class="form-group mt-2">
                             <label for="name">Nome</label>
                             <input type="text" class="form-control" name="name" id="name" placeholder="Seu Nome"
                                 required>
@@ -110,7 +110,7 @@
                             <label for="password">Senha</label>
                             <input type="password" class="form-control" id="password" placeholder="Sua Senha" required>
                         </div>
-                        <div class="form-group mt-3">
+                        <div class="form-group mt-2">
                             <label for="selectForm">Nacionalidade</label>
                             <select class="form-select" id="selectForm">
                                 <option selected disabled>Sua Nacionalidade</option>
@@ -118,7 +118,14 @@
                                 <option value="2">Two</option>
                                 <option value="3">Three</option>
                             </select>
-
+                        </div>
+                        <div class="form-group mt-2">
+                            <label for="date">Data de Nascimento</label>
+                            <input type="date" class="form-control" id="date" name="date">
+                        </div>
+                        <div class="form-group mt-2">
+                            <label for="adress">Endereço</label>
+                            <input type="text" class="form-control" id="adress" placeholder="Rua, Avenida, etc.">
                         </div>
                         <div class="form-check mt-2">
                             <input class="form-check-input" type="radio" name="radio" id="radio" value="option">
@@ -138,35 +145,7 @@
                 <input type="radio" name="tSex" id="cMasc" checked> <label for="cMasc">Masculine</label><br>
                 <input type="radio" name="tSex" id="cFem"> <label for="cFem">Feminine</label>
             </fieldset>
-            <p><label for="cDate">Date of Birth:</label> <input type="date" name="tDate" id="cDate"></p>
         </fieldset>
-        </fieldset>
-        <fieldset id="address">
-            <legend>User Address</legend>
-            <p><label for="cRef">Reference:</label> <input type="text" name="tRef" id="cRef" size="14" maxlength="80"
-                    placeholder="Street, Av, Neighborhood etc... "></p>
-            <p><label for="cNum">Number: </label> <input type="number" name="tNum" id="cNum" min="0" max="9999"
-                    placeholder="Number..."></p>
-            <p><label for="cStat">State:</label> <select name="tStat" id="cStat">
-                    <optgroup label="Southeast Region">
-                        <option value="SP" selected>São Paulo</option>
-                        <option value="RJ">Rio de Janeiro</option>
-                        <option value="MG">Minas Gerais</option>
-                    </optgroup>
-                    <optgroup label="South Region">
-                        <option value="PR">Paraná</option>
-                        <option value="SC">Santa Catarina</option>
-                        <option value="RS">Rio Grande do Sul</option>
-                    </optgroup>
-                </select></p>
-            <p><label for="cCit">City:</label> <input type="text" name="tCit" id="cCit" size="14" maxlength="40"
-                    minlength="1" placeholder="City..." list="city"></input></p>
-            <datalist id="city">
-                <option value="Rio de Janeiro"></option>
-                <option value="Nova Iguaçu"></option>
-                <option value="Niterói"></option>
-                <option value="Belford Roxo"></option>
-            </datalist>
         </fieldset>
         <fieldset id="msg">
             <legend>User Message</legend>
