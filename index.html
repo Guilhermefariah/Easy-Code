@@ -44,7 +44,7 @@
                 </div>
             </div>
         </nav>
-        <div class="container text-center fs-3" style="margin-top: 100px;">
+        <div class="container text-center fs-1" style="margin-top: 100px;">
             <div class="row gap-4">
                 <div class="col">
                     <a class="link-dark link-offset-3-hover link-dange-opacity-50-hover" href="/index.html">Home</a>
@@ -68,7 +68,7 @@
         <div class="container text-center mt-4">
             <div class="row">
                 <div class="col">
-                    <div class="custom-icon-container position-relative" onmouseout="resetOpacity()">
+                    <div class="custom-icon-container position-relative" onmouseout="resetOpacity('figcaption')">
                         <img class="image img-fluid border border-2" src="/_image/1.jpg">
                         <figcaption id="figcaption"
                             class="position-absolute top-0 w-100 h-100 align-items-center text-white p-3 opacity-transition">
@@ -106,18 +106,20 @@
                     </section>
                 </div>
             </div>
+        </div>
+        <div class="container">
             <div class="row">
                 <div class="col col-sm-4" style="height: 80vh;">
-                    <div class="screenLeg">
-                        <img src="/_image/5.jpg" class="img-fluid" alt="Imagem do artigo">
-                        <figcaption class="">
-                            <h1 class="text-dark text-uppercase">Basketball</h1>
-                            <h3 class="text-dark text-uppercase">Nike</h3>
-                            <p class="text-dark text-uppercase">A new way of seeing the World.</p>
+                    <div class="custom-icon-container position-relative" onmouseout="resetOpacity('figcaptionNew')">
+                        <img src="/_image/5.jpg" class="image img-fluid border border-2">
+                        <figcaption id="figcaptionNew" class="position-absolute top-0 w-100 h-100 align-items-center text-white p-3 opacity-transition">
+                            <h1 class="display-6 text-warning text-uppercase">Basketball</h1>
+                            <h3 class="text-light text-uppercase">Nike</h3>
+                            <p class="text-light">A new way of seeing the World.</p>
                         </figcaption>
                     </div>
                 </div>
-            </div>
+            </div>            
         </div>
         <table class="tablespec">
             <caption>Nike Table <span>SB</span></caption>
