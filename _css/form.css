@@ -1,10 +1,10 @@
-.cabecalho-artigo {
+/* .cabecalho-artigo {
     margin-top: 150px;
     text-align: center;
-}
+} */
 form {  
     width: 500px;
-    margin: 50px auto;
+    /* margin: 50px auto; */
 }
 input, textarea {
     font-family: sans-serif;
