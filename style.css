@@ -15,17 +15,13 @@ body {
 }
 .screenLeg {
     position: relative;
-    width: 30vw;
-    height: 80vh;
     border: 1px solid rgb(255, 255, 255);
-    box-shadow: 1px 1px 3px black;
     overflow: hidden;
     margin: auto;
     border-radius: 5px;
 }
 .screenLeg img{
     width: 100%;
-    height: 100%;
     display: block;
 }
 .screenLeg figcaption {
@@ -43,14 +39,6 @@ body {
 .screenLeg:hover figcaption {
     opacity: 1;
     cursor: pointer;
-}
-.corpo {
-    display: block;
-    width: 500px;
-    float: left;
-    border-right: 1px solid #ffffff7a;
-    padding-right: 15px;
-    margin: 200px 0px 20px 10px; 
 }
 .cabecalho-artigo h1 {
     font-size: 25pt;

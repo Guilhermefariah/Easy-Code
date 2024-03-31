@@ -10,6 +10,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body onload="load()">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -64,7 +65,7 @@
         </div>
     </header>
     <main>
-        <div class="container text-center mt-5">
+        <div class="container text-center mt-4">
             <div class="row">
                 <div class="col">
                     <div class="custom-icon-container position-relative" onmouseout="resetOpacity()">
@@ -81,7 +82,7 @@
             </div>
         </div>
         <nav aria-label="Page navigation">
-            <ul class="pagination justify-content-center mt-2">
+            <ul class="pagination justify-content-center mt-4">
                 <li class="page-item" onclick="screenNew('/_image/6.jpg')"><a class="page-link bg-dark link-light"
                         href="#">Previous</a></li>
                 <li class="page-item" onclick="screenNew('/_image/2.jpg')"><a class="page-link bg-dark link-light"
@@ -94,46 +95,55 @@
                         href="#">Next</a></li>
             </ul>
         </nav>
-        <div class="corpo">
-            <section class="cabecalho-artigo">
-                <hgroup>
-                    <h1>Nike News</h1>
-                    <h2>Guideveloper</h2>
-                </hgroup>
-            </section>
-            <div class="screenLeg">
-                <img src="/_image/5.jpg">
-                <figcaption>
-                    <h1>Basketball</h1>
-                    <h3>Nike</h3>
-                    <P>A new way of seeing the World.</P>
-                </figcaption>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <section class="cabecalho-artigo">
+                        <hgroup>
+                            <h1 class="text-dark text-uppercase">Nike News</h1>
+                            <h2 class="text-dark">Guideveloper</h2>
+                        </hgroup>
+                    </section>
+                </div>
             </div>
-            <table class="tablespec">
-                <caption>Nike Table <span>SB</span></caption>
-                <tr>
-                    <td class="left">News SB</td>
-                    <td class="right">NikeSNKS</td>
-                </tr>
-                <tr>
-                    <td rowspan="2" class="left">Nike</td>
-                    <td class="right">SNEAKERS</td>
-                </tr>
-                <tr>
-                    <td class="right">SNKS</td>
-                </tr>
-                <tr>
-                    <td rowspan="2" class="left">Connectivity</td>
-                    <td class="right">Nike</td>
-                </tr>
-                <tr>
-                    <td class="right">Nike</td>
-                </tr>
-                <tr>
-                    <td class="left">Nike News</td>
-                    <td class="right">Total</td>
-                </tr>
-            </table>
+            <div class="row">
+                <div class="col col-sm-4" style="height: 80vh;">
+                    <div class="screenLeg">
+                        <img src="/_image/5.jpg" class="img-fluid" alt="Imagem do artigo">
+                        <figcaption class="">
+                            <h1 class="text-dark text-uppercase">Basketball</h1>
+                            <h3 class="text-dark text-uppercase">Nike</h3>
+                            <p class="text-dark text-uppercase">A new way of seeing the World.</p>
+                        </figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <table class="tablespec">
+            <caption>Nike Table <span>SB</span></caption>
+            <tr>
+                <td class="left">News SB</td>
+                <td class="right">NikeSNKS</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="left">Nike</td>
+                <td class="right">SNEAKERS</td>
+            </tr>
+            <tr>
+                <td class="right">SNKS</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="left">Connectivity</td>
+                <td class="right">Nike</td>
+            </tr>
+            <tr>
+                <td class="right">Nike</td>
+            </tr>
+            <tr>
+                <td class="left">Nike News</td>
+                <td class="right">Total</td>
+            </tr>
+        </table>
         </div>
         <aside class="lateral">
             <h1>Nike Ace</h1>
