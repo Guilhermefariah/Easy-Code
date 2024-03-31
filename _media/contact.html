@@ -134,40 +134,30 @@
                         <div class="form-group mt-2">
                             <label for="state">Estado</label>
                             <select class="form-select" id="state">
-                                <option selected disabled>Escolher...</option>
+                                <option selected disabled>Seu Estado...</option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
                                 <option value="3">Three</option>
                             </select>
                         </div>
-                            <!--Final-->
-                            <div class="form-check mt-2">
-                                <input class="form-check-input" type="radio" name="radio" id="radio" value="option">
-                                <label class="form-check-label" for="radio">
-                                    Salvar Dados
-                                </label>
+                        <div class="form-group mt-2">
+                            <label for="range" class="form-range">Grau de Urgência:</label>
+                            <div class="col-sm-10">
+                                <input type="range" class="form-range" id="range" min="0" max="10" step="2" value="2">
                             </div>
-                            <button type="submit" class="btn btn-primary mt-2">Enviar</button>
+                        </div>
+                        <!--Final-->
+                        <div class="form-check mt-2">
+                            <input class="form-check-input" type="checkbox" name="checkbox" id="checkbox" value="option">
+                            <label class="form-check-label" for="checkbox">
+                                Salvar Dados
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-2">Enviar</button>
                     </form>
                 </div>
             </div>
         </div>
-
-        <fieldset id="user">
-            <fieldset id="sex">
-                <legend>Sex:</legend>
-                <input type="radio" name="tSex" id="cMasc" checked> <label for="cMasc">Masculine</label><br>
-                <input type="radio" name="tSex" id="cFem"> <label for="cFem">Feminine</label>
-            </fieldset>
-        </fieldset>
-        </fieldset>
-        <fieldset id="msg">
-            <legend>User Message</legend>
-            <p><label for="cUrg">Degree of Urgency: </label> Min<input type="range" name="tUrg" id="cUrg" min="0"
-                    max="10" step="2">Max</p>
-            <p><label for="cMsg">Message: </label><textarea name="tMsg" id="cMsg" cols="45" rows="5"
-                    placeholder="Type your message..."></textarea></p>
-        </fieldset>
         <fieldset id="request">
             <legend>I want a Nike set</legend>
             <p><label for="cNike">I would like to buy a Nike</label><input type="checkbox" name="tNike" id="cNike"
