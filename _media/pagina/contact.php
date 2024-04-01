@@ -60,7 +60,7 @@
                 </div>
                 <div class="col rounded-5">
                     <a class="link-dark link-offset-3-hover link-dange-opacity-50-hover"
-                        href="/_media/contact.html">Contato</a>
+                        href="/_media/pagina/contact.html">Contato</a>
                 </div>
             </div>
         </div>
@@ -94,7 +94,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-6 mt-2">
-                    <form method="post" action="api.php" oninput="calc_total();">
+                    <form method="post" action="/_media/api.php" oninput="calc_total();">
                         <div class="form-group">
                             <label for="name">Nome</label>
                             <input type="text" class="form-control" name="name" id="name" placeholder="Seu Nome"
@@ -192,7 +192,7 @@
                 </div>
             </div>
         </footer>
-        <script src="amountprice.js"></script>
+        <script src="/_media/amountprice.js"></script>
         <script src="/app.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
