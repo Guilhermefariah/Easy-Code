@@ -38,7 +38,7 @@ git clone https://github.com/Guilhermefariah/NIKE.git
 
 
 ## Autor
-<p>Este projeto foi desenvolvido por <strong>GuilhermeFariah.</strong></p>
+<p>Projeto Código Aberto - by  <strong>Guideveloper</strong></p>
 
 
 ## Licença
