@@ -1,4 +1,4 @@
-# Notícias Nike
+# Easy-Code
 
 ## Introdrução
 <p> Este é um projeto de website chamado <strong>"Easy Code"</strong>, desenvolvido utilizando <strong>JavaScript, HTML e CSS</strong>. A aplicação tem como objetivo fornecer notícias e informações. ✅</p> 
