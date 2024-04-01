@@ -26,7 +26,7 @@
 
 ### Clone o Projeto!
 ``` sh
-git clone https://github.com/Guilhermefariah/Shopping.git
+git clone https://github.com/Guilhermefariah/NIKE.git
 ```
 
 
