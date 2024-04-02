@@ -30,7 +30,7 @@
                             <a class="nav-link active" href="#">Join Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Help</a>
+                            <a class="nav-link active" href="#">H</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#">Enter</a>
