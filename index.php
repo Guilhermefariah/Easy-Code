@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nike - Exclusive Productions and Collections</title>
+    <title>Easy Code</title>
     <link rel="shortcut icon" href="/_image/nike.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-
 </head>
 
-<body onload="load()">
+<body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
@@ -153,20 +151,20 @@
                 in the Spanish league system</p>
         </section>
         <img class="stadiumimg" src="_image/6.jpg" alt="">
-        <footer class="rodape mt-5 bg-black">
-            <div class="container">
-                <div class="row text-light">
-                    <div class="col">
-                        <p class="mt-0 text-lg-start bg">Projeto Código Aberto - by Guideveloper</p>
-                    </div>
-                    <div class="col text-end">
-                        <a href="#" class="me-3" target="_blank">GitHub</a>
-                        <a href="#" target="_blank">Linkedin</a>
-                    </div>
+    </main>
+    <footer class="rodape mt-5 bg-black">
+        <div class="container">
+            <div class="row text-light">
+                <div class="col">
+                    <p class="mt-0 text-lg-start bg">Projeto Código Aberto - by Guideveloper</p>
+                </div>
+                <div class="col text-end">
+                    <a href="#" class="me-3" target="_blank">GitHub</a>
+                    <a href="#" target="_blank">Linkedin</a>
                 </div>
             </div>
-        </footer>
-    </main>
+        </div>
+    </footer>
     <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
