@@ -13,7 +13,7 @@
 ## Funcionalidades Dinâmicas com JavaScript
 <p>Foi utilizado JavaScript para adicionar funcionalidades dinâmicas ao website, tornando a experiência do usuário mais interativa e amigável.</p>
 
-
+![Texto Alternativo](/Easy-Code/_inteface/readme.jpg)
 ## Responsividade 
 <p>Implementado Media Queries para garantir que o website seja responsivo e se adapte adequadamente a diferentes resoluções de tela, proporcionando uma experiência consistente em dispositivos móveis e desktops.</p>
 
@@ -23,7 +23,7 @@
 
 ### Clone o Projeto!
 ``` sh
-git clone https://github.com/Guilhermefariah/Easy-Code
+git clone https://github.com/Guilhermefariah/Easy-Code.git
 ```
 
 

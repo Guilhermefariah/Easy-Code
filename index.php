@@ -21,16 +21,16 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbar">
-                    <a class="navbar-brand text-light fs-4">Nike News</a>
+                    <a class="navbar-brand text-light fs-4"></a>
                     <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Nike</a>
+                            <a class="nav-link active" aria-current="page" href="#">Livros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Join Us</a>
+                            <a class="nav-link active" href="#">Parcerias</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">H</a>
+                            <a class="nav-link active" href="#">Sobre</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#">Enter</a>
