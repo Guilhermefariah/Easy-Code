@@ -1,4 +1,6 @@
-# Easy-Code
+# Easy-Code ROADMAP
+
+![Texto Alternativo](./_inteface/student.png)
 
 ## Introdrução
 <p> Este é um projeto de website chamado <strong>"Easy Code"</strong>, desenvolvido utilizando <strong>JavaScript, HTML e CSS</strong>. A aplicação tem como objetivo fornecer notícias e informações. ✅</p> 
@@ -13,13 +15,12 @@
 ## Funcionalidades Dinâmicas com JavaScript
 <p>Foi utilizado JavaScript para adicionar funcionalidades dinâmicas ao website, tornando a experiência do usuário mais interativa e amigável.</p>
 
-![Texto Alternativo](/Easy-Code/_inteface/readme.jpg)
+
 ## Responsividade 
 <p>Implementado Media Queries para garantir que o website seja responsivo e se adapte adequadamente a diferentes resoluções de tela, proporcionando uma experiência consistente em dispositivos móveis e desktops.</p>
 
 
 ## Como Inciar o Projeto!
-
 
 ### Clone o Projeto!
 ``` sh
