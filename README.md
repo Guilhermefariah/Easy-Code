@@ -1,8 +1,6 @@
 # Easy Code Roadmap
 
-<p align="center">
-  <img src="_image/easy.png" alt="Easy Code Logo">
-</p>
+<img src="/image/easy.png" alt="Easy Code Logo"  width="120px" height="120px">
 
 
 ## Introdução
