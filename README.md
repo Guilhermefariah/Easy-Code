@@ -1,6 +1,9 @@
 # Easy Code Roadmap
 
-![Easy Code Logo](./_inteface/student.png)
+<p align="center">
+  <img src="_image/easy.png" alt="Easy Code Logo">
+</p>
+
 
 ## Introdução
 Easy Code é um projeto de website desenvolvido com o objetivo de fornecer notícias e informações de forma simples e acessível. Este projeto utiliza JavaScript para interatividade no front-end, PHP para operações no back-end e Bootstrap para o design responsivo.

@@ -7,15 +7,15 @@
     <title>Nike - Exclusive Productions and Collections</title>
     <link rel="shortcut icon" href="/_image/nike.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/_css/form.css">
+    <link rel="stylesheet" href="#/style.css">
 </head>
 
 <body>
-    <header>
+   <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                    aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbar">
@@ -31,30 +31,27 @@
                             <a class="nav-link active" href="#">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Enter</a>
+                            <a class="nav-link active" href="/index.html">Enter</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control is-valid border-light rounded-5 me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                        <input class="form-control is-valid border-light rounded-5 me-2" type="search"
+                            placeholder="Buscar..." aria-label="Search">
                         <button class="btn btn-outline-light rounded-4" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
         </nav>
         <div class="container text-center fs-2" style="margin-top: 100px;">
-            <div class="row gap-4">
-                <div class="col rounded-5">
-                    <a class="link-dark link-offset-3-hover link-dange-opacity-50-hover" href="#">Cadastro</a>
+            <div class="row">
+                <div class="col">
+                    <a class="link-dark link-offset-3-hover link-dange-opacity-50-hover" href="../job/vagas.html">Vagas</a>
                 </div>
                 <div class="col">
-                    <a class="link-dark link-offset-3-hover link-dange-opacity-50-hover" href="../media.php">Vagas</a>
+                    <a class="link-dark link-offset-3-hover link-dange-opacity-50-hover" href="../framework/frame.html">Frameworks</a>
                 </div>
                 <div class="col">
-                    <a class="link-dark link-offset-3-hover link-dange-opacity-50-hover" href="/_media/nikeworld.html">Frameworks</a>
-                </div>
-                <div class="col">
-                    <a class="link-dark link-offset-3-hover link-dange-opacity-50-hover" onclick="history.go(-1)">Inicio</a>
-                </div>
+                    <a class="link-dark link-offset-3-hover link-dange-opacity-50-hover" href="/index.html">Inicio</a>
             </div>
         </div>
     </header>
@@ -63,7 +60,7 @@
         <div class="container text-center mt-5">
             <div class="row">
                 <div class="col">
-                    <img class="image img-fluid border border-1" src="email.jpg">
+                    <img class="image img-fluid border border-1" src="https://images.pexels.com/photos/136132/pexels-photo-136132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=427&dpr=1">
                 </div>
             </div>
         </div>
@@ -102,36 +99,6 @@
                             <label for="password">Senha</label>
                             <input type="password" class="form-control" id="password" placeholder="Sua Senha" required>
                         </div>
-                        <div class="form-group mt-2">
-                            <label for="selectForm">Nacionalidade</label>
-                            <select class="form-select" id="selectForm">
-                                <option selected disabled>Sua Nacionalidade</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </div>
-                        <div class="form-group mt-2">
-                            <label for="date">Data de Nascimento</label>
-                            <input type="date" class="form-control" id="date" name="date">
-                        </div>
-                        <div class="form-group mt-2">
-                            <label for="adress">Endereço</label>
-                            <input type="text" class="form-control" id="adress" placeholder="Rua, Avenida, etc.">
-                        </div>
-                        <div class="form-group mt-2">
-                            <label for="city">Cidade</label>
-                            <input type="text" class="form-control" id="city" placeholder="Sua Cidade...">
-                        </div>
-                        <div class="form-group mt-2">
-                            <label for="state">Estado</label>
-                            <select class="form-select" id="state">
-                                <option selected disabled>Seu Estado...</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </div>
                         <div class="form-group">
                             <label for="text">Comentarios</label>
                             <textarea class="form-control" id="text" rows="2" placeholder="Novidades..."></textarea>
@@ -147,7 +114,7 @@
                 </div>
             </div>
         </div>
-        <footer class="rodape mt-5 bg-black">
+        <footer class="rodape mt-5 bg-dark">
             <div class="container">
                 <div class="row text-light">
                     <div class="col">
@@ -160,7 +127,7 @@
                 </div>
             </div>
         </footer>
-        <script src="/app.js"></script>
+        <script src="#/app.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </main>
 </body>
