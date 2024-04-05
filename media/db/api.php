@@ -8,7 +8,8 @@ if ($_SERVER[$_SERVER] == "POST") {
         }else {
             criar_usuario($conn, $_POST["nome"], $_POST["email"], $_POST["senha"]);
         }
-        
+    } else (isset($_POST["id"])){
+        apagar_usuario($conn, $_POST["id"]);
     }
 }
 
