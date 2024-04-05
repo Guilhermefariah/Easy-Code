@@ -10,12 +10,14 @@ function usuarios($conn){
 }
 function criar_usuario($conn, $nome, $email, $senha){
     $criar_usuariodb = criar_usuariodb($conn, $nome, $email, $senha);
-    $mensagem = $criar_usuariodb == 1 ? "Criado com sucesso!" : "ERROR";
-    return api("../db/api.php?mensagem=$mensagem");
+    return $criar_usuariodb == 1 ? "Criado com sucesso!" : "ERROR";
 }
 function atualizar_usuario($conn, $nome, $email, $senha){
-    $atualizar_usariodb($conn, $nome, $email, $senha);
-    $mensagem = $atualizar_usariodb == 1 ? "Atualizado  com sucesso!" : "Eroor";
-    return api("../db/api.php?mensagem=$mensagem");
+    $atualizar_usariodb = atualizar_usuariodb($conn, $nome, $email, $senha);
+    
+    return  $atualizar_usariodb == 1 ? "Atualizado  com sucesso!" : "ERROR";
 }
-
+function apagar_usuario($conn, $id){
+    $apagar_usuariodb = apagar_usuariodb($conn, $id);
+    return  $apagar_usuariodb == 1 ? "Removido com sucesso!" : "ERROR";
+}
