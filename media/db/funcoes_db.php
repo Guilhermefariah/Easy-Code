@@ -1,6 +1,6 @@
 <?php 
 
-function acoes_usuariosdb($conn, $id){
+function acoesUsuariosDb($conn, $id){
     $id = mysqli_real_escape_string($conn, $id);
     $sql = "SELECT * FROM users WHERE id = ?";
     $stmt = mysqli_stmt_init($conn);
