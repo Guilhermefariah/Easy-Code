@@ -12,3 +12,24 @@ function exbirPesquisa(results) {
         });
     }
 }
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector("form[role='search']");
+    const input = form.querySelector("input[type='search']");
+
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        const buscaLower = input.value.toLowerCase();
+        const buscaResults = [];
+        const buscaItem = document.querySelectorAll('.busca'); 
+        buscaItem.forEach(function (item) {
+            const text = item.textContent.toLowerCase();
+            if (text.includes(buscaLower)) {
+                buscaResults.push(item);
+            }
+        });
+        exbirPesquisa(buscaResults);
+        
+    });
+
+});
