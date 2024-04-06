@@ -119,6 +119,17 @@ const dados = [
             "Descrição 5 para Algoritmos."
         ],
         imagem: "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1"
+    },   
+    {
+        titulo: "UX",
+        descricao: [
+            "Procedimentos bem definidos",
+            "Descrição 2 para Algoritmos.",
+            "Descrição 3 para Algoritmos.",
+            "Descrição 4 para Algoritmos.",
+            "Descrição 5 para Algoritmos."
+        ],
+        imagem: "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1"
     }
 ];
 const linguagensContainer = document.querySelector("#card-container");
@@ -157,8 +168,6 @@ const mostrarDados = dados => {
     linguagensContainer.innerHTML = `
     <div class="row">${html}</div>`;
 };
-
-
 buscarButton.addEventListener("keyup", (e) => {
     const busca = dados.filter(i => i.titulo.toLocaleLowerCase().includes(e.target.value.toLocaleLowerCase()));
     mostrarDados(busca);

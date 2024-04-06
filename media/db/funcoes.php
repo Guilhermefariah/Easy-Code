@@ -12,8 +12,8 @@ function criarUsuario($conn, $nome, $email, $senha){
     $criarUsuarioDb = criarUsuarioDb($conn, $nome, $email, $senha);
     return $criarUsuarioDb == 1 ? "Criado com sucesso!" : "ERROR";
 }
-function atualizarUsuario($conn, $nome, $email, $senha){
-    $atualizarUsuarioDb = atualizarUsuarioDb($conn, $nome, $email, $senha);
+function atualizarUsuario($conn, $id, $nome, $email, $senha){
+    $atualizarUsuarioDb = atualizarUsuarioDb($conn, $id, $nome, $email, $senha);
     return  $atualizarUsuarioDb == 1 ? "Atualizado  com sucesso!" : "ERROR";
 }
 function apagarUsuario($conn, $id){
