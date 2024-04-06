@@ -7,47 +7,118 @@ const dados = [
             "Descrição 3 para Algoritmos.",
             "Descrição 4 para Algoritmos.",
             "Descrição 5 para Algoritmos."
-        ]
+        ],
+        imagem: "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1"
     },
     {
         titulo: "JavaScript",
-        descricao: "JavaScript é uma linguagem de programação de alto nível, interpretada e orientada a objetos."
+        descricao: [
+            "Procedimentos bem definidos",
+            "Descrição 2 para Algoritmos.",
+            "Descrição 3 para Algoritmos.",
+            "Descrição 4 para Algoritmos.",
+            "Descrição 5 para Algoritmos."
+        ],
+        imagem: "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1"
     },
     {
         titulo: "Python",
-        descricao: "Python é uma linguagem de programação interpretada, de alto nível, multiparadigma e de tipagem dinâmica."
+        descricao: [
+            "Procedimentos bem definidos",
+            "Descrição 2 para Algoritmos.",
+            "Descrição 3 para Algoritmos.",
+            "Descrição 4 para Algoritmos.",
+            "Descrição 5 para Algoritmos."
+        ],
+        imagem: "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1"
     },
     {
         titulo: "Java",
-        descricao: "Java é uma linguagem de programação orientada a objetos e plataforma computacional."
+        descricao: [
+            "Procedimentos bem definidos",
+            "Descrição 2 para Algoritmos.",
+            "Descrição 3 para Algoritmos.",
+            "Descrição 4 para Algoritmos.",
+            "Descrição 5 para Algoritmos."
+        ],
+        imagem: "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1"
     },
     {
         titulo: "C++",
-        descricao: "C++ é uma linguagem de programação compilada, multi-paradigma, de alto nível e general-purpose."
+        descricao: [
+            "Procedimentos bem definidos",
+            "Descrição 2 para Algoritmos.",
+            "Descrição 3 para Algoritmos.",
+            "Descrição 4 para Algoritmos.",
+            "Descrição 5 para Algoritmos."
+        ],
+        imagem: "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1"
     },
     {
         titulo: "Ruby",
-        descricao: "Ruby é uma linguagem de programação interpretada, de alto nível e de uso geral."
+        descricao: [
+            "Procedimentos bem definidos",
+            "Descrição 2 para Algoritmos.",
+            "Descrição 3 para Algoritmos.",
+            "Descrição 4 para Algoritmos.",
+            "Descrição 5 para Algoritmos."
+        ],
+        imagem: "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1"
     },
     {
         titulo: "Swift",
-        descricao: "Swift é uma linguagem de programação desenvolvida pela Apple para o desenvolvimento de aplicativos iOS e macOS."
+        descricao: [
+            "Procedimentos bem definidos",
+            "Descrição 2 para Algoritmos.",
+            "Descrição 3 para Algoritmos.",
+            "Descrição 4 para Algoritmos.",
+            "Descrição 5 para Algoritmos."
+        ],
+        imagem: "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1"
     },
     {
         titulo: "C#",
-        descricao: "C# (C Sharp) é uma linguagem de programação orientada a objetos, desenvolvida pela Microsoft."
+        descricao: [
+            "Procedimentos bem definidos",
+            "Descrição 2 para Algoritmos.",
+            "Descrição 3 para Algoritmos.",
+            "Descrição 4 para Algoritmos.",
+            "Descrição 5 para Algoritmos."
+        ],
+        imagem: "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1"
     },
     {
         titulo: "Go",
-        descricao: "Go é uma linguagem de programação compilada, concorrente e de código aberto, desenvolvida pelo Google."
+        descricao: [
+            "Procedimentos bem definidos",
+            "Descrição 2 para Algoritmos.",
+            "Descrição 3 para Algoritmos.",
+            "Descrição 4 para Algoritmos.",
+            "Descrição 5 para Algoritmos."
+        ],
+        imagem: "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1"
     },
     {
         titulo: "Rust",
-        descricao: "Rust é uma linguagem de programação de sistema que é focada em segurança, concorrência e velocidade."
+        descricao: [
+            "Procedimentos bem definidos",
+            "Descrição 2 para Algoritmos.",
+            "Descrição 3 para Algoritmos.",
+            "Descrição 4 para Algoritmos.",
+            "Descrição 5 para Algoritmos."
+        ],
+        imagem: "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1"
     },
     {
         titulo: "PHP",
-        descricao: "PHP é uma linguagem de script open-source amplamente usada, especialmente adequada para o desenvolvimento web."
+        descricao: [
+            "Procedimentos bem definidos",
+            "Descrição 2 para Algoritmos.",
+            "Descrição 3 para Algoritmos.",
+            "Descrição 4 para Algoritmos.",
+            "Descrição 5 para Algoritmos."
+        ],
+        imagem: "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1"
     }
 ];
 const linguagensContainer = document.querySelector("#card-container");
@@ -63,7 +134,7 @@ const mostrarDados = dados => {
         <div class="col-4">
             <div class="custom-icon-container position-relative">
                 <img class="image img-fluid border border-1 rounded-1"
-                    src="https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1">
+                    src="${e.imagem}">
             </div>
             <div class="accordion mt-1">
                 <p>
@@ -74,7 +145,7 @@ const mostrarDados = dados => {
                 </p>
                 <div style="min-height: 120px;">
                     <div class="collapse" id="${collapseId}">
-                        <div class="card card-body bg-dark" style="width: 100%;">
+                        <div class="card card-body bg-dark w-100">
                             ${descricaoHtml}
                         </div>
                     </div>
