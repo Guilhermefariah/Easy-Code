@@ -30,16 +30,16 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Sobre</a>
-                        </li>   
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">Entrar</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control rounded-4 me-2" type="search"
-                            placeholder="Buscar..." aria-label="Search">
-                        <button class="btn btn-outline-light rounded-4" type="submit">Buscar</button>
-                    </form>
+                    <div class="d-flex" role="search">
+                        <input type="text" class="form-control rounded-4 me-2" placeholder="Buscar..."
+                            aria-label="Search" id="searchInput">
+                        <button class="btn btn-outline-light rounded-4" type="button">Buscar</button>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -103,129 +103,24 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <div class="container text-center mt-5" id="busca-results">
+        <div class="container text-center mt-5" id="card-container">
             <div class="row">
                 <div class="col-4">
                     <div class="custom-icon-container position-relative">
                         <img class="image img-fluid border border-1 rounded-1"
                             src="https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1">
                     </div>
-                    <div class="accordion mt-1 ">
+                    <div class="accordion mt-1">
                         <p>
                             <button class="btn btn-dark" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapse">
-                                Ver Mais
+                                titulo
                             </button>
                         </p>
                         <div style="min-height: 120px;">
                             <div class="collapse" id="collapseOne">
                                 <div class="card card-body bg-dark" style="width: 100%;">
-                                    <a href="#" class="link-light">a</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="custom-icon-container position-relative">
-                        <img class="image img-fluid border border-1 rounded-1"
-                            src="https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1">
-                    </div>
-                    <div class="accordion mt-1 ">
-                        <p>
-                            <button class="btn btn-dark" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapse">
-                                Ver Mais
-                            </button>
-                        </p>
-                        <div style="min-height: 120px;">
-                            <div class="collapse" id="collapseTwo">
-                                <div class="card card-body bg-dark" style="width: 100%;">
-                                    <a href="#" class="link-light">a</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="custom-icon-container position-relative">
-                        <img class="image img-fluid border border-1 rounded-1"
-                            src="https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1">
-                    </div>
-                    <div class="accordion mt-1 ">
-                        <p>
-                            <button class="btn btn-dark" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapse">
-                                Ver Mais
-                            </button>
-                        </p>
-                        <div style="min-height: 120px;">
-                            <div class="collapse" id="collapseThree">
-                                <div class="card card-body bg-dark" style="width: 100%;">
-                                    <a href="#" class="link-light">Curso em Video</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 m-0">
-                    <div class="custom-icon-container position-relative">
-                        <img class="image img-fluid border border-1 rounded-1"
-                            src="https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1">
-                    </div>
-                    <div class="accordion mt-1 ">
-                        <p>
-                            <button class="btn btn-dark" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapse">
-                                Ver Mais
-                            </button>
-                        </p>
-                        <div style="min-height: 120px;">
-                            <div class="collapse" id="collapseFour">
-                                <div class="card card-body bg-dark" style="width: 100%;">
-                                    <a href="#" class="link-light">Curso em Video</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="custom-icon-container position-relative">
-                        <img class="image img-fluid border border-1 rounded-1"
-                            src="https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1">
-                    </div>
-                    <div class="accordion mt-1 ">
-                        <p>
-                            <button class="btn btn-dark" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapse">
-                                Ver Mais
-                            </button>
-                        </p>
-                        <div style="min-height: 120px;">
-                            <div class="collapse" id="collapseFive">
-                                <div class="card card-body bg-dark" style="width: 100%;">
-                                    <a href="#" class="link-light">Curso em Video</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="custom-icon-container position-relative">
-                        <img class="image img-fluid border border-1 rounded-1"
-                            src="https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto&cs=tinysrgb&w=1260&h=427&dpr=1">
-                    </div>
-                    <div class="accordion mt-1 ">
-                        <p>
-                            <button class="btn btn-dark" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapse">
-                                Ver Mais
-                            </button>
-                        </p>
-                        <div style="min-height: 120px;">
-                            <div class="collapse" id="collapseSix">
-                                <div class="card card-body bg-dark" style="width: 100%;">
-                                    <a href="#" class="link-light">Curso em Video</a>
+                                    <a href="#" class="link-light">descricao</a>
                                 </div>
                             </div>
                         </div>
