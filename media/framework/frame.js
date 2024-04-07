@@ -2,7 +2,7 @@ const frameworks = [
     {
         titulo: "AngularJS", 
         descricao: [
-            "Procedimentos bem definidos",
+            '<a href="https://www.youtube.com/@loianegroner/playlists" target="_blank">Loiane Groner</a>',
             "Descrição 2 para Algoritmos.",
             "Descrição 3 para Algoritmos.",
             "Descrição 4 para Algoritmos.",
@@ -24,18 +24,16 @@ const frameworks = [
     {   
         titulo: "Laravel",
         descricao: [
-            "Procedimentos bem definidos",
-            "Descrição 2 para Algoritmos.",
-            "Descrição 3 para Algoritmos.",
-            "Descrição 4 para Algoritmos.",
-            "Descrição 5 para Algoritmos."
+            '<a href="https://www.youtube.com/@EspecializatiBr/playlists" target="_blank">Carlos Ferreira - EspecializaTi</a>',
+            '<a href="https://www.youtube.com/@MatheusBattisti" target="_blank">Matheus Battisti - Hora de Codar</a>',
+            '<a href="https://www.youtube.com/@euseiphp/videos" target="_blank">EuSeiPhp</a>',
         ],
         imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAxfdv1vwo3BHv9lcfeVcCRWHao_uj4oSm7EXHq-6Smw&s"
     },
     {
         titulo: "Spring Boot",
         descricao: [
-            "Procedimentos bem definidos",
+            '<a href="https://www.youtube.com/@loianegroner/playlists" target="_blank">Loiane Groner</a>',
             "Descrição 2 para Algoritmos.",
             "Descrição 3 para Algoritmos.",
             "Descrição 4 para Algoritmos.",
@@ -57,6 +55,7 @@ const frameworks = [
     {
         titulo: "React",
         descricao: [
+            '<a href="https://www.youtube.com/@MatheusBattisti" target="_blank">Matheus Battisti - Hora de Codar</a>',
             "Procedimentos bem definidos",
             "Descrição 2 para Algoritmos.",
             "Descrição 3 para Algoritmos.",
@@ -77,9 +76,9 @@ const frameworks = [
         imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png"
     },
     {
-        titulo: "Noje.js",
+        titulo: "Node.js",
         descricao: [
-            "Procedimentos bem definidos",
+            '<a href="https://www.youtube.com/@LuizTools/playlists" target="_blank">LuizTools</a>',
             "Descrição 2 para Algoritmos.",
             "Descrição 3 para Algoritmos.",
             "Descrição 4 para Algoritmos.",

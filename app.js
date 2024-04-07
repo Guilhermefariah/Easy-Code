@@ -9,10 +9,22 @@ const dados = [
         imagem: "https://upload.wikimedia.org/wikipedia/commons/a/aa/Fluxogranma02.gif"
     },
     {
+        titulo: "GIT", 
+        descricao: [
+           '<a href="https://www.youtube.com/@CursoemVideo/playlists" target="_blank">Curso em Video</a>',
+           '<a href="https://www.youtube.com/@RBtechinfo" target="_blank">RBtech</a>',
+           '<a href="https://www.youtube.com/@MaykBrito/playlists" target="_blank">Mayk Brito</a>',
+           
+    
+        ],
+        imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp_PW86idrpZvwGCgzhmlMgV8O0RNnPOGcFqT5VcNO&s"
+    },
+    {
         titulo: "JavaScript",
         descricao: [
             '<a href="https://www.youtube.com/@CursoemVideo/playlists" target="_blank">Curso em Video</a>',
             '<a href="https://www.youtube.com/@freecodecamp" target="_blank">freeCodeCamp</a>',
+            '<a href="https://www.youtube.com/@MatheusBattisti" target="_blank">Matheus Battisti - Hora de Codar</a>',
         ],
         imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
     },
@@ -21,6 +33,7 @@ const dados = [
         descricao: [
             '<a href="https://www.youtube.com/@CursoemVideo/playlists" target="_blank">Curso em Video</a>',
             '<a href="https://www.youtube.com/@freecodecamp" target="_blank">freeCodeCamp</a>',
+            '<a href="https://www.youtube.com/@MatheusBattisti" target="_blank">Matheus Battisti - Hora de Codar</a>',
         ],
         imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/1280px-CSS3_and_HTML5_logos_and_wordmarks.svg.png"
     },
@@ -30,6 +43,16 @@ const dados = [
             '<a href="https://www.youtube.com/@academind/playlists" target="_blank">Academind</a>', 
         ],
         imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-OuCjtlwCSqkhF6lxWXwIE0Ll9aFJdL5qSirjj8BD5A&s"
+    },
+    {
+        titulo: "Estrutura de Dados",
+        descricao: [
+            '<a href="https://www.youtube.com/@ProfessorDouglasMaioli/playlists" target="_blank">Professor Douglas Maioli</a>',
+            '<a href="https://www.youtube.com/@pgdinamica/playlists" target="_blank">Programação Dinâmica</a>',
+            
+            "Procedimentos bem definidos",
+        ],
+        imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROfFyupWm3g-BNBQ0sZ2GYiNchEcF8BcPW_N-5ZhQBKw&s"
     },
     {
         titulo: "Java",
@@ -44,12 +67,19 @@ const dados = [
     {
         titulo: "Mongodb",
         descricao: [
-            '<a href="https://www.youtube.com/@CursoemVideo/playlists" target="_blank">Curso em Video</a>',
+            '<a href="https://www.youtube.com/@LuizTools/playlists" target="_blank">LuizTools</a>',
             '<a href="https://www.youtube.com/@freecodecamp" target="_blank">freeCodeCamp</a>',
             '<a href="https://www.youtube.com/user/Loianeg" target="_blank">Loiane Groner</a>',
             '<a href="https://www.youtube.com/@DevDojoBrasil" target="_blank">DevDojo</a>',
         ],
         imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKiU8cooMJrijZ9Lk6kiI1UIykuuFrQ3XWGBnGwYUb&s"
+    },
+    {
+        titulo: "Kotlin",
+        descricao: [
+            '<a href="https://www.youtube.com/@weverton.santiago/playlists" target="_blank">Weverton Santiago</a>',
+        ],
+        imagem: "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png"
     },
     {
         titulo: "C++",
@@ -72,6 +102,18 @@ const dados = [
         imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv9Ag8dd4NXlLHE1Z6dxVPiXwB-CClkdQ0kIlZwHhmEA&s"
     },
     {
+        titulo: "Web 3.0",
+        descricao: [
+            '<a href="https://www.youtube.com/@LuizTools/playlists" target="_blank">LuizTools</a>',
+            '<a href="https://www.youtube.com/@javascriptmastery/playlists" target="_blank">JavaScript Mastery</a>',
+            
+            '<a href="https://www.youtube.com/@codebreakthrough/playlists" target="_blank">Caleb Curry</a>',
+            '<a href="https://www.youtube.com/@ProgrammingKnowledge/playlists" target="_blank">ProgrammingKnowledge</a>',
+            
+        ],
+        imagem: "https://upload.wikimedia.org/wikipedia/commons/f/fa/LogoWeb3-v1-2-Pragma-sc.png"
+    },
+    {
         titulo: "mySQL",
         descricao: [
             '<a href="https://www.youtube.com/@CursoemVideo/playlists" target="_blank">Curso em Video</a>',
@@ -84,6 +126,8 @@ const dados = [
         descricao: [
             '<a href="https://www.youtube.com/@Figma/playlists" target="_blank">Figma</a>',
             '<a href="https://www.youtube.com/@DesignCourse/playlists" target="_blank">DesignCourse</a>',
+            '<a href="https://www.youtube.com/@BringYourOwnLaptop/playlists" target="_blank">Bring Your Own Laptop</a>',
+            
         ],
         imagem: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
     },
@@ -121,10 +165,18 @@ const dados = [
         titulo: "PHP",
         descricao: [
             '<a href="https://www.youtube.com/@CursoemVideo/playlists" target="_blank">Curso em Video</a>',
-            '<a href="https://www.youtube.com/@Brackeys/playlists" target="_blank">Brackeys</a>',
+            '<a href="https://www.youtube.com/@GaryClarkeTech/playlists" target="_blank">Gary Clarke</a>',
             '<a href="https://www.youtube.com/@Brackeys/playlists" target="_blank">Brackeys</a>',
         ],
         imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Webysther_20160423_-_Elephpant.svg/200px-Webysther_20160423_-_Elephpant.svg.png"
+    },  
+    {
+        titulo: "Power BI",
+        descricao: [
+            '<a href="https://www.youtube.com/@Empowerdata/videos" target="_blank">Empowerdata</a>',
+            '<a href="https://www.youtube.com/@HashtagTreinamentos" target="_blank">Hashtag Treinamentos</a>',
+        ],
+        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/New_Power_BI_Logo.svg/2048px-New_Power_BI_Logo.svg.png"
     },   
     {
         titulo: "Python",
