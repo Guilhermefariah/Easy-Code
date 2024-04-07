@@ -1,14 +1,21 @@
 <?php
+require_once "../../media/db/api.php";
+require_once "../../media/db/funcoes.php";
+require_once "../../media/db/funcoes_db.php";
 
-$host = "http://localhost:5500/_media/contact.html";
-
+$db_host = "localhost";
 $db_name = "cadastro";
-$host = "localhost";
 $db_user = "root";
 $db_pass = '';
 
 try {
     $conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
-}catch(\Throwable $db){
+    if (!$conn) {
+        throw new Exception("Falha ao conectar ao banco de dados: " . mysqli_connect_error());
+    } else {
+        echo "Conexão bem-sucedida!";
+    }
+} catch (\Throwable $db) {
     throw $db;
 }
+?>

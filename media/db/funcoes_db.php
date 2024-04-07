@@ -1,4 +1,7 @@
 <?php
+require_once "../../media/db/db.php";
+require_once "../../media/db/api.php";
+require_once "../../media/db/funcoes.php";
 
 function acoesUsuariosDb($conn, $id)
 {
@@ -12,7 +15,7 @@ function acoesUsuariosDb($conn, $id)
     mysqli_stmt_bind_param($stmt, "i", $id);
     mysqli_stmt_execute($stmt);
     $user = mysqli_fetch_assoc(mysqli_stmt_get_result($stmt));
-    mysqli_close($conn);
+    mysqli_stmt_close($stmt);
     return $user;
 }
 function criarUsuarioDb($conn, $nome, $email, $senha)
@@ -27,10 +30,10 @@ function criarUsuarioDb($conn, $nome, $email, $senha)
 
         if (!mysqli_stmt_prepare($stmt, $sql))
             exit('SQL ERRO!');
-
+        
         mysqli_stmt_bind_param($stmt, 'sss', $nome, $email, $senha);
         mysqli_stmt_execute($stmt);
-        mysqli_close($conn);
+        mysqli_stmt_close($stmt);
         return true;
     }
 }
@@ -42,7 +45,7 @@ function usuariosDb($conn)
     $result_check = mysqli_num_rows($result);
     if ($result_check > 0)
         $users = mysqli_fetch_all($result, MYSQLI_ASSOC);
-    mysqli_close($conn);
+    mysqli_free_result($result); 
     return $users;
 }
 function atualizarUsuarioDb($conn, $id, $nome, $email, $senha)
@@ -54,7 +57,7 @@ function atualizarUsuarioDb($conn, $id, $nome, $email, $senha)
             exit('SQL error');
         mysqli_stmt_bind_param($stmt, 'sssi', $nome, $email, $senha, $id);
         mysqli_stmt_execute($stmt);
-        mysqli_close($conn);
+        mysqli_stmt_close($stmt);
         return true;
     }
 }
@@ -68,6 +71,7 @@ function apagarUsuarioDb($conn, $id)
             exit('SQL error');
         mysqli_stmt_bind_param($stmt, 'i', $id);
         mysqli_stmt_execute($stmt);
+        mysqli_stmt_close($stmt);
         return true;
     }
 }

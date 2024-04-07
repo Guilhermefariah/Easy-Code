@@ -1,8 +1,9 @@
 <?php
+require_once "../../media/db/db.php";
+require_once "../../media/db/funcoes.php";
+require_once "../../media/db/funcoes_db.php";
 
-require_once "../db/funcoes.php";
-
-if ($_SERVER[$_SERVER] == "POST") {
+if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
     if (isset($_POST["nome"]) && isset($_POST["email"]) && isset($_POST["senha"])) {
         if (isset($_POST["id"])) {
@@ -16,5 +17,3 @@ if ($_SERVER[$_SERVER] == "POST") {
 }
 
 $users = usuarios($conn);
-
-

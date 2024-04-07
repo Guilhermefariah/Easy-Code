@@ -1,6 +1,7 @@
 <?php 
-
 require_once "../db/db.php";
+require_once "../../media/db/api.php";
+require_once "../../media/db/funcoes_db.php";
 
 function acoesUsuarios($conn, $id) {
     return acoesUsuariosDb($conn, $id);
