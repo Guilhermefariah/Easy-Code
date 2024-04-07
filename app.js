@@ -2,121 +2,127 @@ const dados = [
     {
         titulo: "Algoritmos", 
         descricao: [
-            "Procedimentos bem definidos",
-            "Descrição 2 para Algoritmos.",
-            "Descrição 3 para Algoritmos.",
-            "Descrição 4 para Algoritmos.",
-            "Descrição 5 para Algoritmos."
+           '<a href="https://www.youtube.com/@CursoemVideo/playlists" target="_blank">Curso em Video</a>',
+           '<a href="https://www.youtube.com/@freecodecamp" target="_blank">freeCodeCamp</a>',
+    
         ],
         imagem: "https://upload.wikimedia.org/wikipedia/commons/a/aa/Fluxogranma02.gif"
     },
     {
         titulo: "JavaScript",
         descricao: [
-            "Procedimentos bem definidos",
-            "Descrição 2 para Algoritmos.",
-            "Descrição 3 para Algoritmos.",
-            "Descrição 4 para Algoritmos.",
-            "Descrição 5 para Algoritmos."
+            '<a href="https://www.youtube.com/@CursoemVideo/playlists" target="_blank">Curso em Video</a>',
+            '<a href="https://www.youtube.com/@freecodecamp" target="_blank">freeCodeCamp</a>',
         ],
         imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
     },
     {   
         titulo: "HTML e CSS",
         descricao: [
-            "Procedimentos bem definidos",
-            "Descrição 2 para Algoritmos.",
-            "Descrição 3 para Algoritmos.",
-            "Descrição 4 para Algoritmos.",
-            "Descrição 5 para Algoritmos."
+            '<a href="https://www.youtube.com/@CursoemVideo/playlists" target="_blank">Curso em Video</a>',
+            '<a href="https://www.youtube.com/@freecodecamp" target="_blank">freeCodeCamp</a>',
         ],
         imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/1280px-CSS3_and_HTML5_logos_and_wordmarks.svg.png"
+    },
+    {   
+        titulo: "AWS",
+        descricao: [
+            '<a href="https://www.youtube.com/@academind/playlists" target="_blank">Academind</a>', 
+        ],
+        imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-OuCjtlwCSqkhF6lxWXwIE0Ll9aFJdL5qSirjj8BD5A&s"
     },
     {
         titulo: "Java",
         descricao: [
-            "Procedimentos bem definidos",
-            "Descrição 2 para Algoritmos.",
-            "Descrição 3 para Algoritmos.",
-            "Descrição 4 para Algoritmos.",
-            "Descrição 5 para Algoritmos."
+            '<a href="https://www.youtube.com/@CursoemVideo/playlists" target="_blank">Curso em Video</a>',
+            '<a href="https://www.youtube.com/@freecodecamp" target="_blank">freeCodeCamp</a>',
+            '<a href="https://www.youtube.com/user/Loianeg" target="_blank">Loiane Groner</a>',
+            '<a href="https://www.youtube.com/@DevDojoBrasil" target="_blank">DevDojo</a>',
         ],
         imagem: "https://upload.wikimedia.org/wikipedia/pt/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png"
     },
     {
+        titulo: "Mongodb",
+        descricao: [
+            '<a href="https://www.youtube.com/@CursoemVideo/playlists" target="_blank">Curso em Video</a>',
+            '<a href="https://www.youtube.com/@freecodecamp" target="_blank">freeCodeCamp</a>',
+            '<a href="https://www.youtube.com/user/Loianeg" target="_blank">Loiane Groner</a>',
+            '<a href="https://www.youtube.com/@DevDojoBrasil" target="_blank">DevDojo</a>',
+        ],
+        imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKiU8cooMJrijZ9Lk6kiI1UIykuuFrQ3XWGBnGwYUb&s"
+    },
+    {
         titulo: "C++",
         descricao: [
-            "Procedimentos bem definidos",
-            "Descrição 2 para Algoritmos.",
-            "Descrição 3 para Algoritmos.",
-            "Descrição 4 para Algoritmos.",
-            "Descrição 5 para Algoritmos."
+            '<a href="https://www.youtube.com/@TheCherno" target="_blank">The Cherno</a>',
+            '<a href="https://www.youtube.com/@codebreakthrough/playlists" target="_blank">Caleb Curry</a>',
+            '<a href="https://www.youtube.com/@ProgrammingKnowledge/playlists" target="_blank">ProgrammingKnowledge</a>',
+            
         ],
         imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD4rstsLzUrHX2D9_-7PDwCKYGid5JWeOehQ_geDAYiw&s"
     },
     {
-        titulo: "Ruby",
+        titulo: "Linux",
         descricao: [
-            "Procedimentos bem definidos",
-            "Descrição 2 para Algoritmos.",
-            "Descrição 3 para Algoritmos.",
-            "Descrição 4 para Algoritmos.",
-            "Descrição 5 para Algoritmos."
+            '<a href="https://www.youtube.com/@TheCherno" target="_blank">The Cherno</a>',
+            '<a href="https://www.youtube.com/@codebreakthrough/playlists" target="_blank">Caleb Curry</a>',
+            '<a href="https://www.youtube.com/@ProgrammingKnowledge/playlists" target="_blank">ProgrammingKnowledge</a>',
+            
         ],
-        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/800px-Ruby_logo.svg.png"
+        imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv9Ag8dd4NXlLHE1Z6dxVPiXwB-CClkdQ0kIlZwHhmEA&s"
+    },
+    {
+        titulo: "mySQL",
+        descricao: [
+            '<a href="https://www.youtube.com/@CursoemVideo/playlists" target="_blank">Curso em Video</a>',
+            '<a href="https://www.youtube.com/@freecodecamp" target="_blank">freeCodeCamp</a>',
+        ],
+        imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi5MGLQ9vV_5kEj09gb1zP1GU2tTb-hRQd-7Snw021og&s"
     },
     {
         titulo: "Figma",
         descricao: [
-            "Procedimentos bem definidos",
-            "Descrição 2 para Algoritmos.",
-            "Descrição 3 para Algoritmos.",
-            "Descrição 4 para Algoritmos.",
-            "Descrição 5 para Algoritmos."
+            '<a href="https://www.youtube.com/@Figma/playlists" target="_blank">Figma</a>',
+            '<a href="https://www.youtube.com/@DesignCourse/playlists" target="_blank">DesignCourse</a>',
         ],
         imagem: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
     },
     {
         titulo: "C#",
         descricao: [
-            "Procedimentos bem definidos",
-            "Descrição 2 para Algoritmos.",
-            "Descrição 3 para Algoritmos.",
-            "Descrição 4 para Algoritmos.",
-            "Descrição 5 para Algoritmos."
+            '<a href="https://www.youtube.com/c/Baltaio" target="_blank">balta.io</a>',
+            '<a href="https://www.youtube.com/@rocketseat/playlists" target="_blank">Rocketseat</a>',
+            '<a href="https://www.youtube.com/@freecodecamp/playlists" target="_blank">freeCodeCamp.org</a>',
+            '<a href="https://www.youtube.com/@NetNinja/playlists" target="_blank">Net Ninja</a>',
+            '<a href="https://www.youtube.com/@Brackeys/playlists" target="_blank">Brackeys</a>',
         ],
         imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/C_Sharp_Logo_2023.svg/200px-C_Sharp_Logo_2023.svg.png"
     },
     {
         titulo: "Go",
         descricao: [
-            "Procedimentos bem definidos",
-            "Descrição 2 para Algoritmos.",
-            "Descrição 3 para Algoritmos.",
-            "Descrição 4 para Algoritmos.",
-            "Descrição 5 para Algoritmos."
+            '<a href="https://www.youtube.com/@PauloKellerDev" target="_blank">Paulo Keller</a>',
+            '<a href="https://www.youtube.com/user/rodrigobranas/playlists" target="_blank">Rodrigo Branas</a>',
+            '<a href="https://www.youtube.com/@JustForFunc/playlists" target="_blank">justforfunc: Programming in Go </a>',
+            '<a href="https://www.youtube.com/@toddmcleod-learn-to-code/playlists target="_blank">Learn To Code</a>',    
         ],
         imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/800px-Go_Logo_Blue.svg.png"
     },
     {
         titulo: "Rust",
         descricao: [
-            "Procedimentos bem definidos",
-            "Descrição 2 para Algoritmos.",
-            "Descrição 3 para Algoritmos.",
-            "Descrição 4 para Algoritmos.",
-            "Descrição 5 para Algoritmos."
+            '<a href="https://www.youtube.com/@TechWithTim/playlists" target="_blank">Tech With Tim</a>',
+            '<a href="https://www.youtube.com/@letsgetrusty/playlists" target="_blank">Lets Get Rusty</a>',
+            '<a href="https://www.youtube.com/@TrevorSullivan" target="_blank">Trevor Sullivan</a>',
         ],
         imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Rustacean-orig-noshadow.svg/220px-Rustacean-orig-noshadow.svg.png"
     },
     {
         titulo: "PHP",
         descricao: [
-            "Procedimentos bem definidos",
-            "Descrição 2 para Algoritmos.",
-            "Descrição 3 para Algoritmos.",
-            "Descrição 4 para Algoritmos.",
-            "Descrição 5 para Algoritmos."
+            '<a href="https://www.youtube.com/@CursoemVideo/playlists" target="_blank">Curso em Video</a>',
+            '<a href="https://www.youtube.com/@Brackeys/playlists" target="_blank">Brackeys</a>',
+            '<a href="https://www.youtube.com/@Brackeys/playlists" target="_blank">Brackeys</a>',
         ],
         imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Webysther_20160423_-_Elephpant.svg/200px-Webysther_20160423_-_Elephpant.svg.png"
     },   
@@ -144,7 +150,7 @@ const mostrarDados = dados => {
         html += `
         <div class="col-4">
             <div class="custom-icon-container position-relative">
-                <img class="image img-fluid border border-1 rounded-5 align-top;"
+                <img class="image img-fluid border border-1 rounded-2 border-3 align-top;"
                 src="${e.imagem}" style="width: 100%; height: 250px;">
             </div>
             <div class="accordion mt-1">

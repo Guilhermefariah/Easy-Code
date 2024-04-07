@@ -8,7 +8,7 @@ const frameworks = [
             "Descrição 4 para Algoritmos.",
             "Descrição 5 para Algoritmos."
         ],
-        imagem: "https://upload.wikimedia.org/wikipedia/commons/a/aa/Fluxogranma02.gif"
+        imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNihduhoYKcZekkz26w5Esg5WGzZUPvj8ZUIXDmj1-TQ&s"
     },
     {
         titulo: "Typescript",
@@ -19,7 +19,7 @@ const frameworks = [
             "Descrição 4 para Algoritmos.",
             "Descrição 5 para Algoritmos."
         ],
-        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"
     },
     {   
         titulo: "Laravel",
@@ -30,7 +30,7 @@ const frameworks = [
             "Descrição 4 para Algoritmos.",
             "Descrição 5 para Algoritmos."
         ],
-        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/1280px-CSS3_and_HTML5_logos_and_wordmarks.svg.png"
+        imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAxfdv1vwo3BHv9lcfeVcCRWHao_uj4oSm7EXHq-6Smw&s"
     },
     {
         titulo: "Spring Boot",
@@ -41,7 +41,7 @@ const frameworks = [
             "Descrição 4 para Algoritmos.",
             "Descrição 5 para Algoritmos."
         ],
-        imagem: "https://upload.wikimedia.org/wikipedia/pt/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png"
+        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/1200px-Spring_Boot.svg.png"
     },
     {
         titulo: "ASP.NET Core",
@@ -52,7 +52,7 @@ const frameworks = [
             "Descrição 4 para Algoritmos.",
             "Descrição 5 para Algoritmos."
         ],
-        imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD4rstsLzUrHX2D9_-7PDwCKYGid5JWeOehQ_geDAYiw&s"
+        imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKh3TBmwA4QWDrifoSZtLl9B1yKA4mtPYjo6Z0xTxp9w&s"
     },
     {
         titulo: "React",
@@ -63,7 +63,7 @@ const frameworks = [
             "Descrição 4 para Algoritmos.",
             "Descrição 5 para Algoritmos."
         ],
-        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/800px-Ruby_logo.svg.png"
+        imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiyIK6lw7E4PWgSvrHUftodq9HVvl5ZPkHnvV-xW5d2w&s"
     },
     {
         titulo: "Vue.js",
@@ -74,10 +74,10 @@ const frameworks = [
             "Descrição 4 para Algoritmos.",
             "Descrição 5 para Algoritmos."
         ],
-        imagem: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png"
     },
     {
-        titulo: "Django",
+        titulo: "Noje.js",
         descricao: [
             "Procedimentos bem definidos",
             "Descrição 2 para Algoritmos.",
@@ -85,21 +85,21 @@ const frameworks = [
             "Descrição 4 para Algoritmos.",
             "Descrição 5 para Algoritmos."
         ],
-        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/C_Sharp_Logo_2023.svg/200px-C_Sharp_Logo_2023.svg.png"
+        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"
     },
     {
         titulo: "Ruby on Rails",
         descricao: [
-            "Procedimentos bem definidos",
+            '<a href="https://www.youtube.com/@rubyverso/videos" target="_blank">rubyverso</a>',
             "Descrição 2 para Algoritmos.",
             "Descrição 3 para Algoritmos.",
             "Descrição 4 para Algoritmos.",
             "Descrição 5 para Algoritmos."
         ],
-        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/800px-Go_Logo_Blue.svg.png"
+        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/1200px-Ruby_On_Rails_Logo.svg.png"
     },
     {
-        titulo: "Rust",
+        titulo: "jQuery",
         descricao: [
             "Procedimentos bem definidos",
             "Descrição 2 para Algoritmos.",
@@ -107,7 +107,7 @@ const frameworks = [
             "Descrição 4 para Algoritmos.",
             "Descrição 5 para Algoritmos."
         ],
-        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Rustacean-orig-noshadow.svg/220px-Rustacean-orig-noshadow.svg.png"
+        imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBXgjjpLy0fLWCAoMATiKX9r8BkPhWJmwezGY92RwLA&s"
     },
     {
         titulo: "Symfony",
@@ -118,10 +118,10 @@ const frameworks = [
             "Descrição 4 para Algoritmos.",
             "Descrição 5 para Algoritmos."
         ],
-        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Webysther_20160423_-_Elephpant.svg/200px-Webysther_20160423_-_Elephpant.svg.png"
+        imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC9IH-bnHp9oCPz2mXnaVpRiT4iujHnh23P4jDbxTy&s"
     },   
     {
-        titulo: "Tailwind",
+        titulo: "NestJS",
         descricao: [
             "Procedimentos bem definidos",
             "Descrição 2 para Algoritmos.",
@@ -129,7 +129,7 @@ const frameworks = [
             "Descrição 4 para Algoritmos.",
             "Descrição 5 para Algoritmos."
         ],
-        imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyQlAY-m5UXpwyX4z78Vpi4WFnNiU7e311PwoZU3kyXQ&shttps://upload.wikimedia.org/wikipedia/pt/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png"
+        imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NestJS.svg/640px-NestJS.svg.png"
     }
 ];
 const linguagensContainer = document.querySelector("#framework-container");
