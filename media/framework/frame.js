@@ -6,6 +6,7 @@ const frameworks = [
             '<a href="https://www.youtube.com/@MatheusBattisti" target="_blank">Matheus Battisti - Hora de Codar</a>',
             '<a href="https://www.youtube.com/@TraversyMedia/playlists" target="_blank">Lucas Ângelo</a>',
             '<a href="https://www.youtube.com/@AngularUniversity/playlists" target="_blank">Angular University</a>',
+            '<a href="https://www.youtube.com/@baltaio/playlists" target="_blank">balta.io</a>',
             
         ],
         imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNihduhoYKcZekkz26w5Esg5WGzZUPvj8ZUIXDmj1-TQ&s"
@@ -18,6 +19,7 @@ const frameworks = [
             '<a href="https://www.youtube.com/@TraversyMedia/playlists" target="_blank">Lucas Ângelo</a>',
             '<a href="https://www.youtube.com/@AngularUniversity/playlists" target="_blank">Angular University</a>',
             '<a href="https://www.youtube.com/@JorgeAluizioconexnetworks/playlists" target="_blank">Jorge Aluizio - Conex Networks</a>',
+            '<a href="https://www.youtube.com/@OtavioMiranda/playlists" target="_blank">Otávio Miranda</a>',
         ],
         imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"
     },
@@ -28,6 +30,7 @@ const frameworks = [
             '<a href="https://www.youtube.com/@MatheusBattisti" target="_blank">Matheus Battisti - Hora de Codar</a>',
             '<a href="https://www.youtube.com/@euseiphp/videos" target="_blank">EuSeiPhp</a>',
             '<a href="https://www.youtube.com/@NetNinja/playlists" target="_blank">Net Ninja</a>',
+            '<a href="https://www.youtube.com/@JLDRPT/playlists" target="_blank">João Ribeiro</a>',
         ],
         imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAxfdv1vwo3BHv9lcfeVcCRWHao_uj4oSm7EXHq-6Smw&s"
     },
@@ -46,6 +49,7 @@ const frameworks = [
             '<a href="https://www.youtube.com/@academind/playlists" target="_blank">Academind</a>',
             '<a href="https://www.youtube.com/@TraversyMedia/playlists" target="_blank">Traversy Media</a>',
             '<a href="https://www.youtube.com/@baltaio/videos" target="_blank">balta.io</a>',      
+            '<a href="https://www.youtube.com/@JLDRPT/playlists" target="_blank">João Ribeiro</a>',
         ],
         imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKh3TBmwA4QWDrifoSZtLl9B1yKA4mtPYjo6Z0xTxp9w&s"
     },
@@ -58,6 +62,7 @@ const frameworks = [
             '<a href="https://www.youtube.com/@TraversyMedia/playlists" target="_blank">Lucas Ângelo</a>',
             '<a href="https://www.youtube.com/@academind/playlists" target="_blank">Academind</a>',
             '<a href="https://www.youtube.com/@JorgeAluizioconexnetworks/playlists" target="_blank">Jorge Aluizio - Conex Networks</a>',
+            '<a href="https://www.youtube.com/@JLDRPT/playlists" target="_blank">João Ribeiro</a>',
         ],
         imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiyIK6lw7E4PWgSvrHUftodq9HVvl5ZPkHnvV-xW5d2w&s"
     },
@@ -67,7 +72,8 @@ const frameworks = [
             '<a href="https://www.youtube.com/@MatheusBattisti" target="_blank">Matheus Battisti - Hora de Codar</a>',
             '<a href="https://www.youtube.com/@NetNinja/playlists" target="_blank">Net Ninja</a>',
             '<a href="https://www.youtube.com/@academind/playlists" target="_blank">Academind</a>',
-            '<a href="https://www.youtube.com/@MatheusBattisti" target="_blank">Matheus Battisti - Hora de Codar</a>'
+            '<a href="https://www.youtube.com/@MatheusBattisti" target="_blank">Matheus Battisti - Hora de Codar</a>',
+            '<a href="https://www.youtube.com/@JLDRPT/playlists" target="_blank">João Ribeiro</a>',
         ],
         imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png"
     },
@@ -77,7 +83,9 @@ const frameworks = [
             '<a href="https://www.youtube.com/@NetNinja/playlists" target="_blank">Net Ninja</a>',
             '<a href="https://www.youtube.com/@codedamn/playlists" target="_blank">Mehul - Codedamn</a>',
             '<a href="https://www.youtube.com/@TraversyMedia/playlists" target="_blank">Traversy Media</a>',
-            '<a href="https://www.youtube.com/@MatheusBattisti" target="_blank">Matheus Battisti - Hora de Codar</a>'
+            '<a href="https://www.youtube.com/@MatheusBattisti" target="_blank">Matheus Battisti - Hora de Codar</a>',
+            '<a href="https://www.youtube.com/@OtavioMiranda/playlists" target="_blank">Otávio Miranda</a>',
+            '<a href="https://www.youtube.com/@JLDRPT/playlists" target="_blank">João Ribeiro</a>',
         ],
         imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Next-black-2022.jpg/640px-Next-black-2022.jpg"
     },
@@ -92,6 +100,7 @@ const frameworks = [
             '<a href="https://www.youtube.com/@andrewarosario/playlists" target="_blank">Andrew Rosário</a>',
             '<a href="https://www.youtube.com/@academind/playlists" target="_blank">Academind</a>',
             '<a href="https://www.youtube.com/@JorgeAluizioconexnetworks/playlists" target="_blank">Jorge Aluizio - Conex Networks</a>',
+            '<a href="https://www.youtube.com/@JLDRPT/playlists" target="_blank">João Ribeiro</a>',
         ],
         imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"
     },
