@@ -77,6 +77,7 @@ const dados = [
             '<a href="https://www.youtube.com/@NetNinja/playlists" target="_blank">Net Ninja</a>',
             '<a href="https://www.youtube.com/@OtavioMiranda/playlists" target="_blank">Otávio Miranda</a>',
             '<a href="https://www.youtube.com/@JLDRPT/playlists" target="_blank">João Ribeiro</a>',
+            '<a href="https://www.youtube.com/@devtechtips/playlists" target="_blank">Dev Tech Tips Brasil</a>',
         ],
         imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Webysther_20160423_-_Elephpant.svg/200px-Webysther_20160423_-_Elephpant.svg.png"
     },
@@ -87,6 +88,7 @@ const dados = [
             '<a href="https://www.youtube.com/@MatheusBattisti" target="_blank">Matheus Battisti - Hora de Codar</a>',
             '<a href="https://www.youtube.com/@bosontreinamentos/playlists" target="_blank">Bóson Treinamentos</a>',
             '<a href="https://www.youtube.com/@OtavioMiranda/playlists" target="_blank">Otávio Miranda</a>',
+            '<a href="https://www.youtube.com/@devtechtips/playlists" target="_blank">Dev Tech Tips Brasil</a>',
         ],
         imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv9Ag8dd4NXlLHE1Z6dxVPiXwB-CClkdQ0kIlZwHhmEA&s"
     },
@@ -194,6 +196,7 @@ const dados = [
     {
         titulo: "Docker",
         descricao: [
+            '<a href="https://www.youtube.com/@devtechtips/playlists" target="_blank">Dev Tech Tips Brasil</a>',
             '<a href="https://www.youtube.com/@amigoscode/playlists" target="_blank">Amigoscode</a>',
             '<a href="https://www.youtube.com/@robertsilvatech/playlists" target="_blank">Robert Silva</a>',
 
@@ -253,6 +256,7 @@ const dados = [
     {
         titulo: "API",
         descricao: [
+            '<a href="https://www.youtube.com/@devtechtips/playlists" target="_blank">Dev Tech Tips Brasil</a>',
             '<a href="https://www.youtube.com/@JLDRPT/playlists" target="_blank">João Ribeiro</a>',
             '<a href="https://www.youtube.com/@TraversyMedia/playlists" target="_blank">Traversy Media</a>',
             '<a href="https://www.youtube.com/@freecodecamp" target="_blank">freeCodeCamp</a>',
