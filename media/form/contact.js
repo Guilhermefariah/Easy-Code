@@ -5,7 +5,7 @@ document.getElementById('meuFormulario').addEventListener('submit', function(eve
     reqXml.open('POST', this.action, true);
     reqXml.onload = function() {
         if (reqXml.status === 200) {
-            window.location.href = "/index.html";
+            window.location.href = "index.html";
         } else {
         }
     };
