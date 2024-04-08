@@ -47,15 +47,15 @@
             <div class="row">
                 <div class="col rounded-5">
                     <a class="link-light link-offset-3-hover link-dange-opacity-50-hover"
-                        href="media/form/contact.html">Cadastro</a>
+                        href="./media/form/contact.php">Cadastro</a>
                 </div>
                 <div class="col">
                     <a class="link-light link-offset-3-hover link-dange-opacity-50-hover"
-                        href="media/job/vagas.html">Vagas</a>
+                        href="./media/job/vagas.php">Vagas</a>
                 </div>
                 <div class="col">
                     <a class="link-light link-offset-3-hover link-dange-opacity-50-hover"
-                        href="media/framework/frame.html">Frameworks</a>
+                        href="./media/framework/frame.php">Frameworks</a>
                 </div>
             </div>
         </div>

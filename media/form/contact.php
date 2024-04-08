@@ -33,7 +33,7 @@
                             <a class="nav-link active" href="#">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="/index.html">Enter</a>
+                            <a class="nav-link active" href="../../index.php">Enter</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -48,14 +48,14 @@
             <div class="row">
                 <div class="col">
                     <a class="link-light  link-offset-3-hover link-dange-opacity-50-hover"
-                        href="/media/job/vagas.html">Vagas</a>
+                        href="../job/vagas.php">Vagas</a>
                 </div>
                 <div class="col">
                     <a class="link-light  link-offset-3-hover link-dange-opacity-50-hover"
-                        href="/media/framework/frame.html">Frameworks</a>
+                        href="../framework/frame.php">Frameworks</a>
                 </div>
                 <div class="col">
-                    <a class="link-light  link-offset-3-hover link-dange-opacity-50-hover" href="/index.html">Inicio</a>
+                    <a class="link-light  link-offset-3-hover link-dange-opacity-50-hover" href="../../index.php">Inicio</a>
                 </div>
             </div>
     </header>

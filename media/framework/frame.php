@@ -55,7 +55,7 @@
                 </div>
                 <div class="col">
                     <a class="link-light link-offset-3-hover link-dange-opacity-50-hover"
-                        href="/index.html">Inicio</a>
+                        href="../../index.php">Inicio</a>
                 </div>
             </div>
         </div>

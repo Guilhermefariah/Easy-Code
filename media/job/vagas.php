@@ -46,13 +46,13 @@
         <div class="container text-center fs-2" style="margin-top: 100px;">
             <div class="row">
                 <div class="col rounded-5">
-                    <a class="link-light link-offset-3-hover link-dange-opacity-50-hover" href="/media/form/contact.html">Cadastro</a>
+                    <a class="link-light link-offset-3-hover link-dange-opacity-50-hover" href="../form/contact.php">Cadastro</a>
                 </div>
                 <div class="col">
-                    <a class="link-light link-offset-3-hover link-dange-opacity-50-hover" href="/index.html">Inicio</a>
+                    <a class="link-light link-offset-3-hover link-dange-opacity-50-hover" href="../../index.php">Inicio</a>
                 </div>
                 <div class="col">
-                    <a class="link-light link-offset-3-hover link-dange-opacity-50-hover" href="/media/framework/frame.html">Frameworks</a>
+                    <a class="link-light link-offset-3-hover link-dange-opacity-50-hover" href="../framework/frame.php">Frameworks</a>
                 </div>
             </div>
         </div>

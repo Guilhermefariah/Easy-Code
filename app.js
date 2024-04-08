@@ -330,3 +330,4 @@ buscarButton.addEventListener("keyup", (e) => {
     const busca = dados.filter(i => i.titulo.toLocaleLowerCase().includes(e.target.value.toLocaleLowerCase()));
     mostrarDados(busca);
 })
+window.addEventListener("load", mostrarDados.bind(null,dados));
