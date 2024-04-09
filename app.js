@@ -306,7 +306,7 @@ const mostrarDados = dados => {
         html += `
         <div class="col-4">
             <div class="custom-icon-container position-relative">
-                <img class="image img-fluid border border-1 rounded-2 border-3 align-top;"
+                <img class="image img-fluid border border-1 rounded-3 align-top;"
                 src="${e.imagem}" style="width: 100%; height: 250px;">
             </div>
             <div class="accordion mt-1">
