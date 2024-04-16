@@ -140,6 +140,7 @@ const frameworks = [
             '<a href="https://www.youtube.com/@AngularUniversity/playlists" target="_blank">Angular University</a>',
             '<a href="https://www.youtube.com/watch?v=V0ye6gXFFj0&list=PLT2b3Y_zT4_9LK6Gtz_QbpfDcxH07xhG5" target="_blank">Matheus Barros</a>',
             '<a href="https://www.youtube.com/@JorgeAluizioconexnetworks/playlists" target="_blank">Jorge Aluizio - Conex Networks</a>',
+            '<a href="https://www.youtube.com/@thi_code/playlists" target="_blank">Thi Code</a>',
             
         ],
         imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NestJS.svg/640px-NestJS.svg.png"
