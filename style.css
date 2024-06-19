@@ -1,0 +1,51 @@
+@media (max-width: 430px) {
+
+    header {
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+    }
+    .navbar-nav .nav-item {
+        margin-bottom: 5px;
+    }
+    .container.text-center {
+        margin-top: 50px;
+    }
+    .carousel-caption h2 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption h3 {
+        font-size: 1rem;
+    }
+    .carousel-item img {
+        height: 50vh;
+    }
+    #card-container .col-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #card-container .image {
+        height: 150px;
+    }
+
+    .rodape {
+        padding: 10px 0;
+    }
+
+    .rodape p {
+        font-size: 0.9rem;
+    }
+
+    .rodape a {
+        font-size: 0.9rem;
+    }
+}
